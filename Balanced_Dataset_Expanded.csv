@@ -1,0 +1,303 @@
+Timestamp,Year Level (last semester),College (last semester),Sex,What was your General Weighted Average (GWA) for the most recent semester?  ,How many subjects have you failed in the most recent semester?   ,"Approximately, what was your attendance rate in classes last semester?   ",How many academic units were you enrolled in during the most recent (last) semester?   ,Part Time Job,"If you answered ""Yes"" to the question above, how many hours did you work per week?","On average, how many hours did you study on weekdays?  ","On average, how many hours did you study on weekends?  ","How often did you submit school requirements(e.g. Assignments, Projects) late?","On average, how many hours did you sleep per night? ","On average, how many hours did you spend gaming per day? ","Were you involved in extracurricular activities (e.g., student orgs, sports, volunteering)?  ","If you answered ""Yes"" to the question above, how many hours per week did you spend on extracurricular activities in the last semester?  ",Stress level,Financial Difficulty,Level of Social Support,Preferred Learning Style,At-Risk/Not At-Risk,GWA_num,Failed_num,Attendance_num,At_Risk_Recomputed
+10/19/2025 17:30,4,College of Education,Prefer not to say,1.76 - 2.25,Prefer not to say,75% - 89%,18,No,0,3.5,1.0,Often,7.5,1,No,0,4,5,3,"Kinesthetic, Visual",At-Risk,2.25,0,75.0,1
+11/2/2025 10:46,2,College of Education,Male,2.26 - 2.75,,Prefer not to say,18,Yes,15,1.0,1.5,Often,7.5,0,Regularly,5,2,3,2,"Kinesthetic, Visual, Auditory, Reading/Writing",At-Risk,2.75,0,,1
+11/6/2025 9:55,2,College of Agriculture,Male,Prefer not to say,1 subject,90% and above,18,No,0,3.5,4.0,Never,7.5,1,Regularly,2,3,2,3,"Kinesthetic, Reading/Writing",At-Risk,,1,90.0,1
+10/17/2025 13:03,4,College of Information Sciences and Computing,Female,1.0 - 1.75,3 or more subjects,75% - 89%,15,Yes,20,1.0,1.5,Rarely,8.0,0,No,0,1,3,5,"Kinesthetic, Auditory, Reading/Writing",At-Risk,1.75,3,75.0,1
+11/13/2025 10:25,3,College of Engineering,Female,Prefer not to say,2 subjects,Prefer not to say,18,Yes,10,3.5,1.0,Never,8.0,0,Occasionally,0,4,2,3,"Kinesthetic, Reading/Writing",At-Risk,,2,,1
+10/23/2025 16:06,1,College of Information Sciences and Computing,Female,1.0 - 1.75,1 subject,90% and above,15,No,0,3.5,1.0,Never,4.0,1,Occasionally,2,4,3,3,"Kinesthetic, Reading/Writing",At-Risk,1.75,1,90.0,1
+10/22/2025 23:18,3,College of Business and Management,Prefer not to say,Prefer not to say,1 subject,90% and above,21,Yes,20,1.5,1.0,Rarely,7.5,1,No,0,2,1,1,"Kinesthetic, Visual, Auditory, Reading/Writing",At-Risk,,1,90.0,1
+10/28/2025 9:50,2,College of Arts and Sciences,Prefer not to say,2.26 - 2.75,Prefer not to say,75% - 89%,21,Yes,15,4.0,4.0,Rarely,4.0,1,Regularly,6,2,3,3,Reading/Writing,At-Risk,2.75,0,75.0,1
+10/19/2025 10:26,2,College of Arts and Sciences,Prefer not to say,1.76 - 2.25,3 or more subjects,Prefer not to say,15,No,0,1.5,3.5,Rarely,8.0,1,No,0,2,2,3,"Kinesthetic, Visual, Reading/Writing",At-Risk,2.25,3,,1
+11/9/2025 8:49,4,College of Education,Male,2.26 - 2.75,,75% - 89%,21,Yes,10,1.5,4.0,Sometimes,5.0,1,Occasionally,2,3,5,4,"Kinesthetic, Auditory",At-Risk,2.75,0,75.0,1
+11/1/2025 16:11,3,College of Nursing,Female,1.76 - 2.25,3 or more subjects,Prefer not to say,15,Yes,20,1.5,1.5,Rarely,5.0,0,No,0,5,1,4,"Kinesthetic, Visual",At-Risk,2.25,3,,1
+10/22/2025 9:35,3,College of Human Ecology,Female,1.0 - 1.75,1 subject,Prefer not to say,21,Yes,20,1.0,3.5,Rarely,5.0,1,Occasionally,2,5,4,3,"Visual, Auditory, Reading/Writing",At-Risk,1.75,1,,1
+10/13/2025 23:14,4,College of Agriculture,Male,2.26 - 2.75,3 or more subjects,75% - 89%,21,Yes,20,4.0,1.0,Rarely,7.5,0,Occasionally,2,5,1,3,"Visual, Auditory",At-Risk,2.75,3,75.0,1
+11/4/2025 3:43,4,College of Human Ecology,Male,1.0 - 1.75,2 subjects,90% and above,15,Yes,15,4.0,3.5,Often,7.5,0,No,0,5,2,4,"Kinesthetic, Visual, Auditory, Reading/Writing",At-Risk,1.75,2,90.0,1
+10/26/2025 20:27,4,College of Human Ecology,Female,Prefer not to say,1 subject,Prefer not to say,21,Yes,15,1.0,1.0,Never,8.0,0,Regularly,2,5,4,5,"Visual, Auditory",At-Risk,,1,,1
+10/16/2025 21:10,1,College of Agriculture,Female,Prefer not to say,2 subjects,90% and above,18,Yes,15,4.0,1.0,Sometimes,7.5,0,No,0,5,1,5,"Kinesthetic, Visual",At-Risk,,2,90.0,1
+10/15/2025 9:53,4,College of Arts and Sciences,Female,2.26 - 2.75,1 subject,90% and above,21,No,0,3.5,1.0,Never,5.0,0,Regularly,6,3,3,3,"Auditory, Reading/Writing",At-Risk,2.75,1,90.0,1
+10/13/2025 2:51,4,College of Nursing,Female,1.76 - 2.25,,90% and above,18,Yes,20,1.0,1.0,Never,7.5,1,Regularly,5,2,1,3,"Kinesthetic, Visual",At-Risk,2.25,0,90.0,1
+10/28/2025 5:26,4,College of Nursing,Prefer not to say,2.26 - 2.75,Prefer not to say,Prefer not to say,18,Yes,15,1.5,4.0,Rarely,4.0,0,Occasionally,2,4,5,3,"Kinesthetic, Visual, Auditory, Reading/Writing",At-Risk,2.75,0,,1
+10/25/2025 2:37,2,College of Agriculture,Prefer not to say,Prefer not to say,3 or more subjects,90% and above,15,No,0,3.5,1.5,Often,7.5,#VALUE!,Occasionally,2,3,3,5,"Kinesthetic, Auditory",At-Risk,,3,90.0,1
+11/2/2025 20:31,4,College of Forestry and Environmental Science,Male,1.76 - 2.25,1 subject,90% and above,18,No,0,3.5,4.0,Never,4.0,0,Regularly,5,4,2,1,"Visual, Auditory, Reading/Writing",At-Risk,2.25,1,90.0,1
+11/4/2025 2:23,1,College of Education,Prefer not to say,2.26 - 2.75,1 subject,90% and above,18,No,0,1.5,1.5,Never,5.0,0,Occasionally,5,1,2,1,Kinesthetic,At-Risk,2.75,1,90.0,1
+11/7/2025 22:39,1,College of Nursing,Prefer not to say,2.26 - 2.75,3 or more subjects,Prefer not to say,21,No,0,3.5,1.0,Never,4.0,0,Occasionally,2,1,5,3,"Kinesthetic, Visual, Auditory, Reading/Writing",At-Risk,2.75,3,,1
+10/15/2025 3:21,4,College of Business and Management,Male,1.0 - 1.75,3 or more subjects,90% and above,21,Yes,15,1.0,1.5,Never,5.0,9,No,0,3,2,5,"Visual, Auditory, Reading/Writing",At-Risk,1.75,3,90.0,1
+10/22/2025 8:05,2,College of Business and Management,Prefer not to say,2.26 - 2.75,2 subjects,75% - 89%,21,Yes,15,3.5,4.0,Never,7.5,0,No,0,2,4,1,"Visual, Reading/Writing",At-Risk,2.75,2,75.0,1
+11/13/2025 20:21,1,College of Nursing,Female,1.76 - 2.25,1 subject,90% and above,21,No,0,1.5,4.0,Often,4.0,7,No,0,4,2,3,"Kinesthetic, Visual, Auditory, Reading/Writing",At-Risk,2.25,1,90.0,1
+10/26/2025 23:47,3,College of Engineering,Prefer not to say,1.0 - 1.75,Prefer not to say,Prefer not to say,21,No,0,1.0,3.5,Never,5.0,1,Regularly,5,1,1,5,"Kinesthetic, Auditory, Reading/Writing",Not At-Risk,1.75,0,,0
+11/4/2025 3:25,4,College of Arts and Sciences,Female,Prefer not to say,Prefer not to say,90% and above,21,Yes,0,3.5,4.0,Rarely,5.0,30.5,No,0,3,1,3,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,90.0,0
+10/28/2025 19:25,4,College of Engineering,Prefer not to say,1.0 - 1.75,Prefer not to say,75% - 89%,15,No,0,1.0,1.5,Often,8.0,1,No,0,2,1,1,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,1.75,0,75.0,0
+10/26/2025 22:47,4,College of Nursing,Prefer not to say,Prefer not to say,,Prefer not to say,21,Yes,10,1.5,3.5,Never,4.0,13.5,No,0,2,4,1,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,,0
+10/13/2025 10:44,1,College of Engineering,Female,Prefer not to say,Prefer not to say,90% and above,21,Yes,10,1.0,1.5,Rarely,5.0,0,No,0,5,2,5,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,90.0,0
+11/9/2025 13:30,2,College of Engineering,Female,1.0 - 1.75,,90% and above,21,No,0,4.0,1.5,Never,7.5,6,Occasionally,2,5,1,5,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,1.75,0,90.0,0
+10/26/2025 23:47,3,College of Engineering,Prefer not to say,1.0 - 1.75,Prefer not to say,Prefer not to say,21,No,0,1.0,3.5,Never,5.0,1,Regularly,5,1,1,5,"Kinesthetic, Auditory, Reading/Writing",Not At-Risk,1.75,0,,0
+10/12/2025 0:04,4,College of Information Sciences and Computing,Prefer not to say,1.0 - 1.75,Prefer not to say,90% and above,21,Yes,10,3.5,4.0,Rarely,5.0,1,No,0,3,2,1,"Kinesthetic, Visual, Auditory",Not At-Risk,1.75,0,90.0,0
+11/12/2025 5:26,3,College of Business and Management,Male,1.0 - 1.75,Prefer not to say,Prefer not to say,18,Yes,10,1.5,1.5,Rarely,8.0,1,Heavily,5,4,2,5,Reading/Writing,Not At-Risk,1.75,0,,0
+10/26/2025 22:47,4,College of Nursing,Prefer not to say,Prefer not to say,,Prefer not to say,21,Yes,10,1.5,3.5,Never,4.0,13.5,No,0,2,4,1,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,,0
+10/26/2025 22:47,4,College of Nursing,Prefer not to say,Prefer not to say,,Prefer not to say,21,Yes,10,1.5,3.5,Never,4.0,13.5,No,0,2,4,1,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,,0
+11/13/2025 15:58,2,College of Education,Male,Prefer not to say,,75% - 89%,15,No,0,3.5,1.0,Never,8.0,8,Occasionally,5,2,5,2,"Visual, Reading/Writing",Not At-Risk,,0,75.0,0
+11/9/2025 13:30,2,College of Engineering,Female,1.0 - 1.75,,90% and above,21,No,0,4.0,1.5,Never,7.5,6,Occasionally,2,5,1,5,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,1.75,0,90.0,0
+10/20/2025 5:19,1,College of Forestry and Environmental Science,Prefer not to say,1.0 - 1.75,,75% - 89%,18,Yes,20,1.0,3.5,Rarely,5.0,10.5,Occasionally,0,3,4,1,"Visual, Auditory, Reading/Writing",Not At-Risk,1.75,0,75.0,0
+10/13/2025 10:44,1,College of Engineering,Female,Prefer not to say,Prefer not to say,90% and above,21,Yes,10,1.0,1.5,Rarely,5.0,0,No,0,5,2,5,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,90.0,0
+11/13/2025 15:58,2,College of Education,Male,Prefer not to say,,75% - 89%,15,No,0,3.5,1.0,Never,8.0,8,Occasionally,5,2,5,2,"Visual, Reading/Writing",Not At-Risk,,0,75.0,0
+11/7/2025 20:07,4,College of Forestry and Environmental Science,Male,Prefer not to say,Prefer not to say,90% and above,18,Yes,10,1.0,1.0,Sometimes,4.0,25,No,0,1,1,1,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,,0,90.0,0
+11/11/2025 21:33,4,College of Nursing,Prefer not to say,1.0 - 1.75,,75% - 89%,21,Yes,10,1.0,1.5,Rarely,7.5,1,Occasionally,5,5,4,5,Auditory,Not At-Risk,1.75,0,75.0,0
+11/9/2025 13:30,2,College of Engineering,Female,1.0 - 1.75,,90% and above,21,No,0,4.0,1.5,Never,7.5,6,Occasionally,2,5,1,5,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,1.75,0,90.0,0
+11/10/2025 6:37,4,College of Engineering,Prefer not to say,Prefer not to say,,75% - 89%,18,Yes,10,3.5,1.5,Rarely,7.5,0,Heavily,6,5,5,5,Auditory,Not At-Risk,,0,75.0,0
+11/13/2025 15:58,2,College of Education,Male,Prefer not to say,,75% - 89%,15,No,0,3.5,1.0,Never,8.0,8,Occasionally,5,2,5,2,"Visual, Reading/Writing",Not At-Risk,,0,75.0,0
+10/29/2025 4:20,4,College of Business and Management,Prefer not to say,Prefer not to say,Prefer not to say,90% and above,21,Yes,20,1.0,1.0,Never,7.5,15,Occasionally,5,3,5,3,Visual,Not At-Risk,,0,90.0,0
+11/12/2025 21:38,1,College of Agriculture,Male,1.0 - 1.75,,Prefer not to say,18,Yes,15,1.5,1.0,Never,5.0,0,Heavily,6,4,4,3,Auditory,Not At-Risk,1.75,0,,0
+11/10/2025 6:37,4,College of Engineering,Prefer not to say,Prefer not to say,,75% - 89%,18,Yes,10,3.5,1.5,Rarely,7.5,0,Heavily,6,5,5,5,Auditory,Not At-Risk,,0,75.0,0
+11/9/2025 13:30,2,College of Engineering,Female,1.0 - 1.75,,90% and above,21,No,0,4.0,1.5,Never,7.5,6,Occasionally,2,5,1,5,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,1.75,0,90.0,0
+10/26/2025 2:17,3,College of Nursing,Prefer not to say,Prefer not to say,Prefer not to say,75% - 89%,21,No,0,1.0,4.0,Never,4.0,0,No,0,3,4,1,"Visual, Auditory, Reading/Writing",Not At-Risk,,0,75.0,0
+10/22/2025 9:35,3,College of Human Ecology,Female,1.0 - 1.75,1 subject,Prefer not to say,21,Yes,20,1.0,3.5,Rarely,5.0,1,Occasionally,2,5,4,3,"Visual, Auditory, Reading/Writing",At-Risk,1.74,1,0.0,1
+11/1/2025 16:11,3,College of Nursing,Female,1.76 - 2.25,3 or more subjects,Prefer not to say,15,Yes,20,1.5,1.5,Rarely,5.0,0,No,0,5,1,4,"Kinesthetic, Visual",At-Risk,2.36,3,0.0,1
+11/6/2025 9:55,2,College of Agriculture,Male,Prefer not to say,1 subject,90% and above,18,No,0,3.5,4.0,Never,7.5,1,Regularly,2,3,2,3,"Kinesthetic, Reading/Writing",At-Risk,,1,90.0,1
+10/12/2025 0:04,4,College of Information Sciences and Computing,Prefer not to say,1.0 - 1.75,Prefer not to say,90% and above,21,Yes,10,3.5,4.0,Rarely,5.0,1,No,0,3,2,1,"Kinesthetic, Visual, Auditory",Not At-Risk,1.67,0,90.0,0
+11/9/2025 13:30,2,College of Engineering,Female,1.0 - 1.75,,90% and above,21,No,0,4.0,1.5,Never,7.5,6,Occasionally,2,5,1,5,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,1.73,0,90.0,0
+11/4/2025 3:43,4,College of Human Ecology,Male,1.0 - 1.75,2 subjects,90% and above,15,Yes,15,4.0,3.5,Often,7.5,0,No,0,5,2,4,"Kinesthetic, Visual, Auditory, Reading/Writing",At-Risk,1.75,2,90.0,1
+10/23/2025 16:06,1,College of Information Sciences and Computing,Female,1.0 - 1.75,1 subject,90% and above,15,No,0,3.5,1.0,Never,4.0,1,Occasionally,2,4,3,3,"Kinesthetic, Reading/Writing",At-Risk,1.8,1,90.0,1
+10/20/2025 5:19,1,College of Forestry and Environmental Science,Prefer not to say,1.0 - 1.75,,75% - 89%,18,Yes,20,1.0,3.5,Rarely,5.0,10.5,Occasionally,0,3,4,1,"Visual, Auditory, Reading/Writing",Not At-Risk,1.66,0,75.0,0
+10/13/2025 2:51,4,College of Nursing,Female,1.76 - 2.25,,90% and above,18,Yes,20,1.0,1.0,Never,7.5,1,Regularly,5,2,1,3,"Kinesthetic, Visual",At-Risk,2.36,0,90.0,1
+10/19/2025 10:26,2,College of Arts and Sciences,Prefer not to say,1.76 - 2.25,3 or more subjects,Prefer not to say,15,No,0,1.5,3.5,Rarely,8.0,1,No,0,2,2,3,"Kinesthetic, Visual, Reading/Writing",At-Risk,2.32,3,0.0,1
+11/1/2025 16:11,3,College of Nursing,Female,1.76 - 2.25,3 or more subjects,Prefer not to say,15,Yes,20,1.5,1.5,Rarely,5.0,0,No,0,5,1,4,"Kinesthetic, Visual",At-Risk,2.15,3,0.0,1
+10/28/2025 19:25,4,College of Engineering,Prefer not to say,1.0 - 1.75,Prefer not to say,75% - 89%,15,No,0,1.0,1.5,Often,8.0,1,No,0,2,1,1,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,1.71,0,75.0,0
+11/13/2025 10:25,3,College of Engineering,Female,Prefer not to say,2 subjects,Prefer not to say,18,Yes,10,3.5,1.0,Never,8.0,0,Occasionally,0,4,2,3,"Kinesthetic, Reading/Writing",At-Risk,,2,0.0,1
+10/26/2025 2:17,3,College of Nursing,Prefer not to say,Prefer not to say,Prefer not to say,75% - 89%,21,No,0,1.0,4.0,Never,4.0,0,No,0,3,4,1,"Visual, Auditory, Reading/Writing",Not At-Risk,,0,75.0,0
+11/12/2025 5:26,3,College of Business and Management,Male,1.0 - 1.75,Prefer not to say,Prefer not to say,18,Yes,10,1.5,1.5,Rarely,8.0,1,Heavily,5,4,2,5,Reading/Writing,Not At-Risk,1.75,0,0.0,1
+11/9/2025 8:49,4,College of Education,Male,2.26 - 2.75,,75% - 89%,21,Yes,10,1.5,4.0,Sometimes,5.0,1,Occasionally,2,3,5,4,"Kinesthetic, Auditory",At-Risk,2.83,0,75.0,1
+10/17/2025 13:03,4,College of Information Sciences and Computing,Female,1.0 - 1.75,3 or more subjects,75% - 89%,15,Yes,20,1.0,1.5,Rarely,8.0,0,No,0,1,3,5,"Kinesthetic, Auditory, Reading/Writing",At-Risk,1.76,3,75.0,1
+10/26/2025 22:47,4,College of Nursing,Prefer not to say,Prefer not to say,,Prefer not to say,21,Yes,10,1.5,3.5,Never,4.0,13.5,No,0,2,4,1,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,0.0,1
+11/9/2025 8:49,4,College of Education,Male,2.26 - 2.75,,75% - 89%,21,Yes,10,1.5,4.0,Sometimes,5.0,1,Occasionally,2,3,5,4,"Kinesthetic, Auditory",At-Risk,2.83,0,75.0,1
+10/15/2025 9:53,4,College of Arts and Sciences,Female,2.26 - 2.75,1 subject,90% and above,21,No,0,3.5,1.0,Never,5.0,0,Regularly,6,3,3,3,"Auditory, Reading/Writing",At-Risk,2.64,1,90.0,1
+10/22/2025 23:18,3,College of Business and Management,Prefer not to say,Prefer not to say,1 subject,90% and above,21,Yes,20,1.5,1.0,Rarely,7.5,1,No,0,2,1,1,"Kinesthetic, Visual, Auditory, Reading/Writing",At-Risk,,1,90.0,1
+10/26/2025 22:47,4,College of Nursing,Prefer not to say,Prefer not to say,,Prefer not to say,21,Yes,10,1.5,3.5,Never,4.0,13.5,No,0,2,4,1,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,0.0,1
+10/26/2025 20:27,4,College of Human Ecology,Female,Prefer not to say,1 subject,Prefer not to say,21,Yes,15,1.0,1.0,Never,8.0,0,Regularly,2,5,4,5,"Visual, Auditory",At-Risk,,1,0.0,1
+11/9/2025 13:30,2,College of Engineering,Female,1.0 - 1.75,,90% and above,21,No,0,4.0,1.5,Never,7.5,6,Occasionally,2,5,1,5,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,1.69,0,90.0,0
+10/29/2025 4:20,4,College of Business and Management,Prefer not to say,Prefer not to say,Prefer not to say,90% and above,21,Yes,20,1.0,1.0,Never,7.5,15,Occasionally,5,3,5,3,Visual,Not At-Risk,,0,90.0,0
+10/25/2025 2:37,2,College of Agriculture,Prefer not to say,Prefer not to say,3 or more subjects,90% and above,15,No,0,3.5,1.5,Often,7.5,#VALUE!,Occasionally,2,3,3,5,"Kinesthetic, Auditory",At-Risk,,3,90.0,1
+11/7/2025 20:07,4,College of Forestry and Environmental Science,Male,Prefer not to say,Prefer not to say,90% and above,18,Yes,10,1.0,1.0,Sometimes,4.0,25,No,0,1,1,1,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,,0,90.0,0
+10/28/2025 9:50,2,College of Arts and Sciences,Prefer not to say,2.26 - 2.75,Prefer not to say,75% - 89%,21,Yes,15,4.0,4.0,Rarely,4.0,1,Regularly,6,2,3,3,Reading/Writing,At-Risk,2.63,0,75.0,1
+11/13/2025 15:58,2,College of Education,Male,Prefer not to say,,75% - 89%,15,No,0,3.5,1.0,Never,8.0,8,Occasionally,5,2,5,2,"Visual, Reading/Writing",Not At-Risk,,0,75.0,0
+11/13/2025 10:25,3,College of Engineering,Female,Prefer not to say,2 subjects,Prefer not to say,18,Yes,10,3.5,1.0,Never,8.0,0,Occasionally,0,4,2,3,"Kinesthetic, Reading/Writing",At-Risk,,2,0.0,1
+11/2/2025 10:46,2,College of Education,Male,2.26 - 2.75,,Prefer not to say,18,Yes,15,1.0,1.5,Often,7.5,0,Regularly,5,2,3,2,"Kinesthetic, Visual, Auditory, Reading/Writing",At-Risk,2.66,0,0.0,1
+10/13/2025 10:44,1,College of Engineering,Female,Prefer not to say,Prefer not to say,90% and above,21,Yes,10,1.0,1.5,Rarely,5.0,0,No,0,5,2,5,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,90.0,0
+11/13/2025 20:21,1,College of Nursing,Female,1.76 - 2.25,1 subject,90% and above,21,No,0,1.5,4.0,Often,4.0,7,No,0,4,2,3,"Kinesthetic, Visual, Auditory, Reading/Writing",At-Risk,2.32,1,90.0,1
+11/4/2025 3:25,4,College of Arts and Sciences,Female,Prefer not to say,Prefer not to say,90% and above,21,Yes,0,3.5,4.0,Rarely,5.0,30.5,No,0,3,1,3,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,90.0,0
+10/26/2025 2:17,3,College of Nursing,Prefer not to say,Prefer not to say,Prefer not to say,75% - 89%,21,No,0,1.0,4.0,Never,4.0,0,No,0,3,4,1,"Visual, Auditory, Reading/Writing",Not At-Risk,,0,75.0,0
+10/19/2025 17:30,4,College of Education,Prefer not to say,1.76 - 2.25,Prefer not to say,75% - 89%,18,No,0,3.5,1.0,Often,7.5,1,No,0,4,5,3,"Kinesthetic, Visual",At-Risk,2.36,0,75.0,1
+10/19/2025 17:30,4,College of Education,Prefer not to say,1.76 - 2.25,Prefer not to say,75% - 89%,18,No,0,3.5,1.0,Often,7.5,1,No,0,4,5,3,"Kinesthetic, Visual",At-Risk,2.14,0,75.0,0
+10/17/2025 13:03,4,College of Information Sciences and Computing,Female,1.0 - 1.75,3 or more subjects,75% - 89%,15,Yes,20,1.0,1.5,Rarely,8.0,0,No,0,1,3,5,"Kinesthetic, Auditory, Reading/Writing",At-Risk,1.69,3,75.0,1
+10/26/2025 23:47,3,College of Engineering,Prefer not to say,1.0 - 1.75,Prefer not to say,Prefer not to say,21,No,0,1.0,3.5,Never,5.0,1,Regularly,5,1,1,5,"Kinesthetic, Auditory, Reading/Writing",Not At-Risk,1.72,0,0.0,1
+11/10/2025 6:37,4,College of Engineering,Prefer not to say,Prefer not to say,,75% - 89%,18,Yes,10,3.5,1.5,Rarely,7.5,0,Heavily,6,5,5,5,Auditory,Not At-Risk,,0,75.0,0
+11/10/2025 6:37,4,College of Engineering,Prefer not to say,Prefer not to say,,75% - 89%,18,Yes,10,3.5,1.5,Rarely,7.5,0,Heavily,6,5,5,5,Auditory,Not At-Risk,,0,75.0,0
+10/26/2025 2:17,3,College of Nursing,Prefer not to say,Prefer not to say,Prefer not to say,75% - 89%,21,No,0,1.0,4.0,Never,4.0,0,No,0,3,4,1,"Visual, Auditory, Reading/Writing",Not At-Risk,,0,75.0,0
+11/13/2025 10:25,3,College of Engineering,Female,Prefer not to say,2 subjects,Prefer not to say,18,Yes,10,3.5,1.0,Never,8.0,0,Occasionally,0,4,2,3,"Kinesthetic, Reading/Writing",At-Risk,,2,0.0,1
+11/2/2025 20:31,4,College of Forestry and Environmental Science,Male,1.76 - 2.25,1 subject,90% and above,18,No,0,3.5,4.0,Never,4.0,0,Regularly,5,4,2,1,"Visual, Auditory, Reading/Writing",At-Risk,2.28,1,90.0,1
+11/9/2025 13:30,2,College of Engineering,Female,1.0 - 1.75,,90% and above,21,No,0,4.0,1.5,Never,7.5,6,Occasionally,2,5,1,5,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,1.81,0,90.0,0
+11/13/2025 15:58,2,College of Education,Male,Prefer not to say,,75% - 89%,15,No,0,3.5,1.0,Never,8.0,8,Occasionally,5,2,5,2,"Visual, Reading/Writing",Not At-Risk,,0,75.0,0
+10/13/2025 10:44,1,College of Engineering,Female,Prefer not to say,Prefer not to say,90% and above,21,Yes,10,1.0,1.5,Rarely,5.0,0,No,0,5,2,5,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,90.0,0
+10/22/2025 9:35,3,College of Human Ecology,Female,1.0 - 1.75,1 subject,Prefer not to say,21,Yes,20,1.0,3.5,Rarely,5.0,1,Occasionally,2,5,4,3,"Visual, Auditory, Reading/Writing",At-Risk,1.8,1,0.0,1
+10/19/2025 17:30,4,College of Education,Prefer not to say,1.76 - 2.25,Prefer not to say,75% - 89%,18,No,0,3.5,1.0,Often,7.5,1,No,0,4,5,3,"Kinesthetic, Visual",At-Risk,2.22,0,75.0,0
+10/15/2025 9:53,4,College of Arts and Sciences,Female,2.26 - 2.75,1 subject,90% and above,21,No,0,3.5,1.0,Never,5.0,0,Regularly,6,3,3,3,"Auditory, Reading/Writing",At-Risk,2.74,1,90.0,1
+10/26/2025 2:17,3,College of Nursing,Prefer not to say,Prefer not to say,Prefer not to say,75% - 89%,21,No,0,1.0,4.0,Never,4.0,0,No,0,3,4,1,"Visual, Auditory, Reading/Writing",Not At-Risk,,0,75.0,0
+11/7/2025 22:39,1,College of Nursing,Prefer not to say,2.26 - 2.75,3 or more subjects,Prefer not to say,21,No,0,3.5,1.0,Never,4.0,0,Occasionally,2,1,5,3,"Kinesthetic, Visual, Auditory, Reading/Writing",At-Risk,2.81,3,0.0,1
+11/9/2025 13:30,2,College of Engineering,Female,1.0 - 1.75,,90% and above,21,No,0,4.0,1.5,Never,7.5,6,Occasionally,2,5,1,5,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,1.68,0,90.0,0
+10/13/2025 10:44,1,College of Engineering,Female,Prefer not to say,Prefer not to say,90% and above,21,Yes,10,1.0,1.5,Rarely,5.0,0,No,0,5,2,5,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,90.0,0
+11/11/2025 21:33,4,College of Nursing,Prefer not to say,1.0 - 1.75,,75% - 89%,21,Yes,10,1.0,1.5,Rarely,7.5,1,Occasionally,5,5,4,5,Auditory,Not At-Risk,1.71,0,75.0,0
+11/4/2025 3:25,4,College of Arts and Sciences,Female,Prefer not to say,Prefer not to say,90% and above,21,Yes,0,3.5,4.0,Rarely,5.0,30.5,No,0,3,1,3,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,90.0,0
+11/9/2025 8:49,4,College of Education,Male,2.26 - 2.75,,75% - 89%,21,Yes,10,1.5,4.0,Sometimes,5.0,1,Occasionally,2,3,5,4,"Kinesthetic, Auditory",At-Risk,2.87,0,75.0,1
+10/25/2025 2:37,2,College of Agriculture,Prefer not to say,Prefer not to say,3 or more subjects,90% and above,15,No,0,3.5,1.5,Often,7.5,#VALUE!,Occasionally,2,3,3,5,"Kinesthetic, Auditory",At-Risk,,3,90.0,1
+11/2/2025 20:31,4,College of Forestry and Environmental Science,Male,1.76 - 2.25,1 subject,90% and above,18,No,0,3.5,4.0,Never,4.0,0,Regularly,5,4,2,1,"Visual, Auditory, Reading/Writing",At-Risk,2.33,1,90.0,1
+11/10/2025 6:37,4,College of Engineering,Prefer not to say,Prefer not to say,,75% - 89%,18,Yes,10,3.5,1.5,Rarely,7.5,0,Heavily,6,5,5,5,Auditory,Not At-Risk,,0,75.0,0
+11/7/2025 22:39,1,College of Nursing,Prefer not to say,2.26 - 2.75,3 or more subjects,Prefer not to say,21,No,0,3.5,1.0,Never,4.0,0,Occasionally,2,1,5,3,"Kinesthetic, Visual, Auditory, Reading/Writing",At-Risk,2.89,3,0.0,1
+10/26/2025 23:47,3,College of Engineering,Prefer not to say,1.0 - 1.75,Prefer not to say,Prefer not to say,21,No,0,1.0,3.5,Never,5.0,1,Regularly,5,1,1,5,"Kinesthetic, Auditory, Reading/Writing",Not At-Risk,1.67,0,0.0,1
+10/15/2025 9:53,4,College of Arts and Sciences,Female,2.26 - 2.75,1 subject,90% and above,21,No,0,3.5,1.0,Never,5.0,0,Regularly,6,3,3,3,"Auditory, Reading/Writing",At-Risk,2.66,1,90.0,1
+10/19/2025 10:26,2,College of Arts and Sciences,Prefer not to say,1.76 - 2.25,3 or more subjects,Prefer not to say,15,No,0,1.5,3.5,Rarely,8.0,1,No,0,2,2,3,"Kinesthetic, Visual, Reading/Writing",At-Risk,2.3,3,0.0,1
+11/2/2025 10:46,2,College of Education,Male,2.26 - 2.75,,Prefer not to say,18,Yes,15,1.0,1.5,Often,7.5,0,Regularly,5,2,3,2,"Kinesthetic, Visual, Auditory, Reading/Writing",At-Risk,2.62,0,0.0,1
+10/25/2025 2:37,2,College of Agriculture,Prefer not to say,Prefer not to say,3 or more subjects,90% and above,15,No,0,3.5,1.5,Often,7.5,#VALUE!,Occasionally,2,3,3,5,"Kinesthetic, Auditory",At-Risk,,3,90.0,1
+10/22/2025 8:05,2,College of Business and Management,Prefer not to say,2.26 - 2.75,2 subjects,75% - 89%,21,Yes,15,3.5,4.0,Never,7.5,0,No,0,2,4,1,"Visual, Reading/Writing",At-Risk,2.81,2,75.0,1
+10/26/2025 22:47,4,College of Nursing,Prefer not to say,Prefer not to say,,Prefer not to say,21,Yes,10,1.5,3.5,Never,4.0,13.5,No,0,2,4,1,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,0.0,1
+11/13/2025 15:58,2,College of Education,Male,Prefer not to say,,75% - 89%,15,No,0,3.5,1.0,Never,8.0,8,Occasionally,5,2,5,2,"Visual, Reading/Writing",Not At-Risk,,0,75.0,0
+10/25/2025 2:37,2,College of Agriculture,Prefer not to say,Prefer not to say,3 or more subjects,90% and above,15,No,0,3.5,1.5,Often,7.5,#VALUE!,Occasionally,2,3,3,5,"Kinesthetic, Auditory",At-Risk,,3,90.0,1
+10/22/2025 23:18,3,College of Business and Management,Prefer not to say,Prefer not to say,1 subject,90% and above,21,Yes,20,1.5,1.0,Rarely,7.5,1,No,0,2,1,1,"Kinesthetic, Visual, Auditory, Reading/Writing",At-Risk,,1,90.0,1
+11/9/2025 13:30,2,College of Engineering,Female,1.0 - 1.75,,90% and above,21,No,0,4.0,1.5,Never,7.5,6,Occasionally,2,5,1,5,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,1.7,0,90.0,0
+11/13/2025 15:58,2,College of Education,Male,Prefer not to say,,75% - 89%,15,No,0,3.5,1.0,Never,8.0,8,Occasionally,5,2,5,2,"Visual, Reading/Writing",Not At-Risk,,0,75.0,0
+10/19/2025 10:26,2,College of Arts and Sciences,Prefer not to say,1.76 - 2.25,3 or more subjects,Prefer not to say,15,No,0,1.5,3.5,Rarely,8.0,1,No,0,2,2,3,"Kinesthetic, Visual, Reading/Writing",At-Risk,2.35,3,0.0,1
+11/13/2025 15:58,2,College of Education,Male,Prefer not to say,,75% - 89%,15,No,0,3.5,1.0,Never,8.0,8,Occasionally,5,2,5,2,"Visual, Reading/Writing",Not At-Risk,,0,75.0,0
+11/10/2025 6:37,4,College of Engineering,Prefer not to say,Prefer not to say,,75% - 89%,18,Yes,10,3.5,1.5,Rarely,7.5,0,Heavily,6,5,5,5,Auditory,Not At-Risk,,0,75.0,0
+10/26/2025 22:47,4,College of Nursing,Prefer not to say,Prefer not to say,,Prefer not to say,21,Yes,10,1.5,3.5,Never,4.0,13.5,No,0,2,4,1,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,0.0,1
+10/26/2025 2:17,3,College of Nursing,Prefer not to say,Prefer not to say,Prefer not to say,75% - 89%,21,No,0,1.0,4.0,Never,4.0,0,No,0,3,4,1,"Visual, Auditory, Reading/Writing",Not At-Risk,,0,75.0,0
+10/22/2025 8:05,2,College of Business and Management,Prefer not to say,2.26 - 2.75,2 subjects,75% - 89%,21,Yes,15,3.5,4.0,Never,7.5,0,No,0,2,4,1,"Visual, Reading/Writing",At-Risk,2.67,2,75.0,1
+10/22/2025 8:05,2,College of Business and Management,Prefer not to say,2.26 - 2.75,2 subjects,75% - 89%,21,Yes,15,3.5,4.0,Never,7.5,0,No,0,2,4,1,"Visual, Reading/Writing",At-Risk,2.66,2,75.0,1
+11/9/2025 13:30,2,College of Engineering,Female,1.0 - 1.75,,90% and above,21,No,0,4.0,1.5,Never,7.5,6,Occasionally,2,5,1,5,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,1.68,0,90.0,0
+11/12/2025 5:26,3,College of Business and Management,Male,1.0 - 1.75,Prefer not to say,Prefer not to say,18,Yes,10,1.5,1.5,Rarely,8.0,1,Heavily,5,4,2,5,Reading/Writing,Not At-Risk,1.77,0,0.0,1
+10/22/2025 8:05,2,College of Business and Management,Prefer not to say,2.26 - 2.75,2 subjects,75% - 89%,21,Yes,15,3.5,4.0,Never,7.5,0,No,0,2,4,1,"Visual, Reading/Writing",At-Risk,2.75,2,75.0,1
+10/15/2025 3:21,4,College of Business and Management,Male,1.0 - 1.75,3 or more subjects,90% and above,21,Yes,15,1.0,1.5,Never,5.0,9,No,0,3,2,5,"Visual, Auditory, Reading/Writing",At-Risk,1.71,3,90.0,1
+10/26/2025 22:47,4,College of Nursing,Prefer not to say,Prefer not to say,,Prefer not to say,21,Yes,10,1.5,3.5,Never,4.0,13.5,No,0,2,4,1,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,0.0,1
+11/13/2025 15:58,2,College of Education,Male,Prefer not to say,,75% - 89%,15,No,0,3.5,1.0,Never,8.0,8,Occasionally,5,2,5,2,"Visual, Reading/Writing",Not At-Risk,,0,75.0,0
+10/23/2025 16:06,1,College of Information Sciences and Computing,Female,1.0 - 1.75,1 subject,90% and above,15,No,0,3.5,1.0,Never,4.0,1,Occasionally,2,4,3,3,"Kinesthetic, Reading/Writing",At-Risk,1.75,1,90.0,1
+10/12/2025 0:04,4,College of Information Sciences and Computing,Prefer not to say,1.0 - 1.75,Prefer not to say,90% and above,21,Yes,10,3.5,4.0,Rarely,5.0,1,No,0,3,2,1,"Kinesthetic, Visual, Auditory",Not At-Risk,1.77,0,90.0,0
+10/22/2025 8:05,2,College of Business and Management,Prefer not to say,2.26 - 2.75,2 subjects,75% - 89%,21,Yes,15,3.5,4.0,Never,7.5,0,No,0,2,4,1,"Visual, Reading/Writing",At-Risk,2.76,2,75.0,1
+10/22/2025 8:05,2,College of Business and Management,Prefer not to say,2.26 - 2.75,2 subjects,75% - 89%,21,Yes,15,3.5,4.0,Never,7.5,0,No,0,2,4,1,"Visual, Reading/Writing",At-Risk,2.81,2,75.0,1
+10/19/2025 10:26,2,College of Arts and Sciences,Prefer not to say,1.76 - 2.25,3 or more subjects,Prefer not to say,15,No,0,1.5,3.5,Rarely,8.0,1,No,0,2,2,3,"Kinesthetic, Visual, Reading/Writing",At-Risk,2.18,3,0.0,1
+11/9/2025 13:30,2,College of Engineering,Female,1.0 - 1.75,,90% and above,21,No,0,4.0,1.5,Never,7.5,6,Occasionally,2,5,1,5,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,1.66,0,90.0,0
+11/13/2025 15:58,2,College of Education,Male,Prefer not to say,,75% - 89%,15,No,0,3.5,1.0,Never,8.0,8,Occasionally,5,2,5,2,"Visual, Reading/Writing",Not At-Risk,,0,75.0,0
+10/26/2025 20:27,4,College of Human Ecology,Female,Prefer not to say,1 subject,Prefer not to say,21,Yes,15,1.0,1.0,Never,8.0,0,Regularly,2,5,4,5,"Visual, Auditory",At-Risk,,1,0.0,1
+11/10/2025 6:37,4,College of Engineering,Prefer not to say,Prefer not to say,,75% - 89%,18,Yes,10,3.5,1.5,Rarely,7.5,0,Heavily,6,5,5,5,Auditory,Not At-Risk,,0,75.0,0
+10/22/2025 9:35,3,College of Human Ecology,Female,1.0 - 1.75,1 subject,Prefer not to say,21,Yes,20,1.0,3.5,Rarely,5.0,1,Occasionally,2,5,4,3,"Visual, Auditory, Reading/Writing",At-Risk,1.76,1,0.0,1
+10/20/2025 5:19,1,College of Forestry and Environmental Science,Prefer not to say,1.0 - 1.75,,75% - 89%,18,Yes,20,1.0,3.5,Rarely,5.0,10.5,Occasionally,0,3,4,1,"Visual, Auditory, Reading/Writing",Not At-Risk,1.82,0,75.0,0
+11/13/2025 15:58,2,College of Education,Male,Prefer not to say,,75% - 89%,15,No,0,3.5,1.0,Never,8.0,8,Occasionally,5,2,5,2,"Visual, Reading/Writing",Not At-Risk,,0,75.0,0
+11/7/2025 20:07,4,College of Forestry and Environmental Science,Male,Prefer not to say,Prefer not to say,90% and above,18,Yes,10,1.0,1.0,Sometimes,4.0,25,No,0,1,1,1,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,,0,90.0,0
+11/2/2025 10:46,2,College of Education,Male,2.26 - 2.75,,Prefer not to say,18,Yes,15,1.0,1.5,Often,7.5,0,Regularly,5,2,3,2,"Kinesthetic, Visual, Auditory, Reading/Writing",At-Risk,2.79,0,0.0,1
+10/26/2025 22:47,4,College of Nursing,Prefer not to say,Prefer not to say,,Prefer not to say,21,Yes,10,1.5,3.5,Never,4.0,13.5,No,0,2,4,1,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,0.0,1
+10/17/2025 13:03,4,College of Information Sciences and Computing,Female,1.0 - 1.75,3 or more subjects,75% - 89%,15,Yes,20,1.0,1.5,Rarely,8.0,0,No,0,1,3,5,"Kinesthetic, Auditory, Reading/Writing",At-Risk,1.77,3,75.0,1
+10/26/2025 23:47,3,College of Engineering,Prefer not to say,1.0 - 1.75,Prefer not to say,Prefer not to say,21,No,0,1.0,3.5,Never,5.0,1,Regularly,5,1,1,5,"Kinesthetic, Auditory, Reading/Writing",Not At-Risk,1.79,0,0.0,1
+10/25/2025 2:37,2,College of Agriculture,Prefer not to say,Prefer not to say,3 or more subjects,90% and above,15,No,0,3.5,1.5,Often,7.5,#VALUE!,Occasionally,2,3,3,5,"Kinesthetic, Auditory",At-Risk,,3,90.0,1
+11/2/2025 10:46,2,College of Education,Male,2.26 - 2.75,,Prefer not to say,18,Yes,15,1.0,1.5,Often,7.5,0,Regularly,5,2,3,2,"Kinesthetic, Visual, Auditory, Reading/Writing",At-Risk,2.67,0,0.0,1
+10/28/2025 9:50,2,College of Arts and Sciences,Prefer not to say,2.26 - 2.75,Prefer not to say,75% - 89%,21,Yes,15,4.0,4.0,Rarely,4.0,1,Regularly,6,2,3,3,Reading/Writing,At-Risk,2.66,0,75.0,1
+11/9/2025 13:30,2,College of Engineering,Female,1.0 - 1.75,,90% and above,21,No,0,4.0,1.5,Never,7.5,6,Occasionally,2,5,1,5,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,1.74,0,90.0,0
+10/13/2025 23:14,4,College of Agriculture,Male,2.26 - 2.75,3 or more subjects,75% - 89%,21,Yes,20,4.0,1.0,Rarely,7.5,0,Occasionally,2,5,1,3,"Visual, Auditory",At-Risk,2.79,3,75.0,1
+10/12/2025 0:04,4,College of Information Sciences and Computing,Prefer not to say,1.0 - 1.75,Prefer not to say,90% and above,21,Yes,10,3.5,4.0,Rarely,5.0,1,No,0,3,2,1,"Kinesthetic, Visual, Auditory",Not At-Risk,1.71,0,90.0,0
+11/4/2025 2:23,1,College of Education,Prefer not to say,2.26 - 2.75,1 subject,90% and above,18,No,0,1.5,1.5,Never,5.0,0,Occasionally,5,1,2,1,Kinesthetic,At-Risk,2.65,1,90.0,1
+11/2/2025 10:46,2,College of Education,Male,2.26 - 2.75,,Prefer not to say,18,Yes,15,1.0,1.5,Often,7.5,0,Regularly,5,2,3,2,"Kinesthetic, Visual, Auditory, Reading/Writing",At-Risk,2.63,0,0.0,1
+11/7/2025 20:07,4,College of Forestry and Environmental Science,Male,Prefer not to say,Prefer not to say,90% and above,18,Yes,10,1.0,1.0,Sometimes,4.0,25,No,0,1,1,1,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,,0,90.0,0
+11/7/2025 20:07,4,College of Forestry and Environmental Science,Male,Prefer not to say,Prefer not to say,90% and above,18,Yes,10,1.0,1.0,Sometimes,4.0,25,No,0,1,1,1,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,,0,90.0,0
+11/9/2025 13:30,2,College of Engineering,Female,1.0 - 1.75,,90% and above,21,No,0,4.0,1.5,Never,7.5,6,Occasionally,2,5,1,5,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,1.7,0,90.0,0
+10/15/2025 9:53,4,College of Arts and Sciences,Female,2.26 - 2.75,1 subject,90% and above,21,No,0,3.5,1.0,Never,5.0,0,Regularly,6,3,3,3,"Auditory, Reading/Writing",At-Risk,2.82,1,90.0,1
+10/26/2025 2:17,3,College of Nursing,Prefer not to say,Prefer not to say,Prefer not to say,75% - 89%,21,No,0,1.0,4.0,Never,4.0,0,No,0,3,4,1,"Visual, Auditory, Reading/Writing",Not At-Risk,,0,75.0,0
+10/26/2025 20:27,4,College of Human Ecology,Female,Prefer not to say,1 subject,Prefer not to say,21,Yes,15,1.0,1.0,Never,8.0,0,Regularly,2,5,4,5,"Visual, Auditory",At-Risk,,1,0.0,1
+10/22/2025 23:18,3,College of Business and Management,Prefer not to say,Prefer not to say,1 subject,90% and above,21,Yes,20,1.5,1.0,Rarely,7.5,1,No,0,2,1,1,"Kinesthetic, Visual, Auditory, Reading/Writing",At-Risk,,1,90.0,1
+11/12/2025 5:26,3,College of Business and Management,Male,1.0 - 1.75,Prefer not to say,Prefer not to say,18,Yes,10,1.5,1.5,Rarely,8.0,1,Heavily,5,4,2,5,Reading/Writing,Not At-Risk,1.67,0,0.0,1
+10/25/2025 2:37,2,College of Agriculture,Prefer not to say,Prefer not to say,3 or more subjects,90% and above,15,No,0,3.5,1.5,Often,7.5,#VALUE!,Occasionally,2,3,3,5,"Kinesthetic, Auditory",At-Risk,,3,90.0,1
+11/12/2025 21:38,1,College of Agriculture,Male,1.0 - 1.75,,Prefer not to say,18,Yes,15,1.5,1.0,Never,5.0,0,Heavily,6,4,4,3,Auditory,Not At-Risk,1.81,0,0.0,1
+10/16/2025 21:10,1,College of Agriculture,Female,Prefer not to say,2 subjects,90% and above,18,Yes,15,4.0,1.0,Sometimes,7.5,0,No,0,5,1,5,"Kinesthetic, Visual",At-Risk,,2,90.0,1
+11/10/2025 6:37,4,College of Engineering,Prefer not to say,Prefer not to say,,75% - 89%,18,Yes,10,3.5,1.5,Rarely,7.5,0,Heavily,6,5,5,5,Auditory,Not At-Risk,,0,75.0,0
+11/4/2025 3:25,4,College of Arts and Sciences,Female,Prefer not to say,Prefer not to say,90% and above,21,Yes,0,3.5,4.0,Rarely,5.0,30.5,No,0,3,1,3,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,90.0,0
+10/13/2025 10:44,1,College of Engineering,Female,Prefer not to say,Prefer not to say,90% and above,21,Yes,10,1.0,1.5,Rarely,5.0,0,No,0,5,2,5,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,90.0,0
+11/1/2025 16:11,3,College of Nursing,Female,1.76 - 2.25,3 or more subjects,Prefer not to say,15,Yes,20,1.5,1.5,Rarely,5.0,0,No,0,5,1,4,"Kinesthetic, Visual",At-Risk,2.19,3,0.0,1
+11/4/2025 3:25,4,College of Arts and Sciences,Female,Prefer not to say,Prefer not to say,90% and above,21,Yes,0,3.5,4.0,Rarely,5.0,30.5,No,0,3,1,3,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,90.0,0
+11/1/2025 16:11,3,College of Nursing,Female,1.76 - 2.25,3 or more subjects,Prefer not to say,15,Yes,20,1.5,1.5,Rarely,5.0,0,No,0,5,1,4,"Kinesthetic, Visual",At-Risk,2.36,3,0.0,1
+11/12/2025 5:26,3,College of Business and Management,Male,1.0 - 1.75,Prefer not to say,Prefer not to say,18,Yes,10,1.5,1.5,Rarely,8.0,1,Heavily,5,4,2,5,Reading/Writing,Not At-Risk,1.71,0,0.0,1
+11/12/2025 5:26,3,College of Business and Management,Male,1.0 - 1.75,Prefer not to say,Prefer not to say,18,Yes,10,1.5,1.5,Rarely,8.0,1,Heavily,5,4,2,5,Reading/Writing,Not At-Risk,1.74,0,0.0,1
+10/16/2025 21:10,1,College of Agriculture,Female,Prefer not to say,2 subjects,90% and above,18,Yes,15,4.0,1.0,Sometimes,7.5,0,No,0,5,1,5,"Kinesthetic, Visual",At-Risk,,2,90.0,1
+10/25/2025 2:37,2,College of Agriculture,Prefer not to say,Prefer not to say,3 or more subjects,90% and above,15,No,0,3.5,1.5,Often,7.5,#VALUE!,Occasionally,2,3,3,5,"Kinesthetic, Auditory",At-Risk,,3,90.0,1
+10/26/2025 23:47,3,College of Engineering,Prefer not to say,1.0 - 1.75,Prefer not to say,Prefer not to say,21,No,0,1.0,3.5,Never,5.0,1,Regularly,5,1,1,5,"Kinesthetic, Auditory, Reading/Writing",Not At-Risk,1.84,0,0.0,1
+11/2/2025 20:31,4,College of Forestry and Environmental Science,Male,1.76 - 2.25,1 subject,90% and above,18,No,0,3.5,4.0,Never,4.0,0,Regularly,5,4,2,1,"Visual, Auditory, Reading/Writing",At-Risk,2.33,1,90.0,1
+11/13/2025 15:58,2,College of Education,Male,Prefer not to say,,75% - 89%,15,No,0,3.5,1.0,Never,8.0,8,Occasionally,5,2,5,2,"Visual, Reading/Writing",Not At-Risk,,0,75.0,0
+10/26/2025 2:17,3,College of Nursing,Prefer not to say,Prefer not to say,Prefer not to say,75% - 89%,21,No,0,1.0,4.0,Never,4.0,0,No,0,3,4,1,"Visual, Auditory, Reading/Writing",Not At-Risk,,0,75.0,0
+10/26/2025 23:47,3,College of Engineering,Prefer not to say,1.0 - 1.75,Prefer not to say,Prefer not to say,21,No,0,1.0,3.5,Never,5.0,1,Regularly,5,1,1,5,"Kinesthetic, Auditory, Reading/Writing",Not At-Risk,1.83,0,0.0,1
+10/13/2025 10:44,1,College of Engineering,Female,Prefer not to say,Prefer not to say,90% and above,21,Yes,10,1.0,1.5,Rarely,5.0,0,No,0,5,2,5,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,90.0,0
+10/26/2025 2:17,3,College of Nursing,Prefer not to say,Prefer not to say,Prefer not to say,75% - 89%,21,No,0,1.0,4.0,Never,4.0,0,No,0,3,4,1,"Visual, Auditory, Reading/Writing",Not At-Risk,,0,75.0,0
+10/16/2025 21:10,1,College of Agriculture,Female,Prefer not to say,2 subjects,90% and above,18,Yes,15,4.0,1.0,Sometimes,7.5,0,No,0,5,1,5,"Kinesthetic, Visual",At-Risk,,2,90.0,1
+11/9/2025 8:49,4,College of Education,Male,2.26 - 2.75,,75% - 89%,21,Yes,10,1.5,4.0,Sometimes,5.0,1,Occasionally,2,3,5,4,"Kinesthetic, Auditory",At-Risk,2.75,0,75.0,1
+10/15/2025 3:21,4,College of Business and Management,Male,1.0 - 1.75,3 or more subjects,90% and above,21,Yes,15,1.0,1.5,Never,5.0,9,No,0,3,2,5,"Visual, Auditory, Reading/Writing",At-Risk,1.67,3,90.0,1
+11/2/2025 10:46,2,College of Education,Male,2.26 - 2.75,,Prefer not to say,18,Yes,15,1.0,1.5,Often,7.5,0,Regularly,5,2,3,2,"Kinesthetic, Visual, Auditory, Reading/Writing",At-Risk,2.7,0,0.0,1
+11/13/2025 15:58,2,College of Education,Male,Prefer not to say,,75% - 89%,15,No,0,3.5,1.0,Never,8.0,8,Occasionally,5,2,5,2,"Visual, Reading/Writing",Not At-Risk,,0,75.0,0
+11/12/2025 21:38,1,College of Agriculture,Male,1.0 - 1.75,,Prefer not to say,18,Yes,15,1.5,1.0,Never,5.0,0,Heavily,6,4,4,3,Auditory,Not At-Risk,1.84,0,0.0,1
+11/2/2025 10:46,2,College of Education,Male,2.26 - 2.75,,Prefer not to say,18,Yes,15,1.0,1.5,Often,7.5,0,Regularly,5,2,3,2,"Kinesthetic, Visual, Auditory, Reading/Writing",At-Risk,2.88,0,0.0,1
+10/17/2025 13:03,4,College of Information Sciences and Computing,Female,1.0 - 1.75,3 or more subjects,75% - 89%,15,Yes,20,1.0,1.5,Rarely,8.0,0,No,0,1,3,5,"Kinesthetic, Auditory, Reading/Writing",At-Risk,1.73,3,75.0,1
+10/19/2025 10:26,2,College of Arts and Sciences,Prefer not to say,1.76 - 2.25,3 or more subjects,Prefer not to say,15,No,0,1.5,3.5,Rarely,8.0,1,No,0,2,2,3,"Kinesthetic, Visual, Reading/Writing",At-Risk,2.23,3,0.0,1
+10/13/2025 10:44,1,College of Engineering,Female,Prefer not to say,Prefer not to say,90% and above,21,Yes,10,1.0,1.5,Rarely,5.0,0,No,0,5,2,5,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,90.0,0
+10/29/2025 4:20,4,College of Business and Management,Prefer not to say,Prefer not to say,Prefer not to say,90% and above,21,Yes,20,1.0,1.0,Never,7.5,15,Occasionally,5,3,5,3,Visual,Not At-Risk,,0,90.0,0
+10/13/2025 10:44,1,College of Engineering,Female,Prefer not to say,Prefer not to say,90% and above,21,Yes,10,1.0,1.5,Rarely,5.0,0,No,0,5,2,5,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,90.0,0
+11/4/2025 3:25,4,College of Arts and Sciences,Female,Prefer not to say,Prefer not to say,90% and above,21,Yes,0,3.5,4.0,Rarely,5.0,30.5,No,0,3,1,3,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,90.0,0
+11/10/2025 6:37,4,College of Engineering,Prefer not to say,Prefer not to say,,75% - 89%,18,Yes,10,3.5,1.5,Rarely,7.5,0,Heavily,6,5,5,5,Auditory,Not At-Risk,,0,75.0,0
+10/26/2025 22:47,4,College of Nursing,Prefer not to say,Prefer not to say,,Prefer not to say,21,Yes,10,1.5,3.5,Never,4.0,13.5,No,0,2,4,1,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,0.0,1
+11/13/2025 15:58,2,College of Education,Male,Prefer not to say,,75% - 89%,15,No,0,3.5,1.0,Never,8.0,8,Occasionally,5,2,5,2,"Visual, Reading/Writing",Not At-Risk,,0,75.0,0
+10/28/2025 5:26,4,College of Nursing,Prefer not to say,2.26 - 2.75,Prefer not to say,Prefer not to say,18,Yes,15,1.5,4.0,Rarely,4.0,0,Occasionally,2,4,5,3,"Kinesthetic, Visual, Auditory, Reading/Writing",At-Risk,2.76,0,0.0,1
+11/10/2025 6:37,4,College of Engineering,Prefer not to say,Prefer not to say,,75% - 89%,18,Yes,10,3.5,1.5,Rarely,7.5,0,Heavily,6,5,5,5,Auditory,Not At-Risk,,0,75.0,0
+10/13/2025 10:44,1,College of Engineering,Female,Prefer not to say,Prefer not to say,90% and above,21,Yes,10,1.0,1.5,Rarely,5.0,0,No,0,5,2,5,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,90.0,0
+10/19/2025 10:26,2,College of Arts and Sciences,Prefer not to say,1.76 - 2.25,3 or more subjects,Prefer not to say,15,No,0,1.5,3.5,Rarely,8.0,1,No,0,2,2,3,"Kinesthetic, Visual, Reading/Writing",At-Risk,2.31,3,0.0,1
+11/13/2025 15:58,2,College of Education,Male,Prefer not to say,,75% - 89%,15,No,0,3.5,1.0,Never,8.0,8,Occasionally,5,2,5,2,"Visual, Reading/Writing",Not At-Risk,,0,75.0,0
+11/10/2025 6:37,4,College of Engineering,Prefer not to say,Prefer not to say,,75% - 89%,18,Yes,10,3.5,1.5,Rarely,7.5,0,Heavily,6,5,5,5,Auditory,Not At-Risk,,0,75.0,0
+11/9/2025 13:30,2,College of Engineering,Female,1.0 - 1.75,,90% and above,21,No,0,4.0,1.5,Never,7.5,6,Occasionally,2,5,1,5,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,1.78,0,90.0,0
+10/28/2025 19:25,4,College of Engineering,Prefer not to say,1.0 - 1.75,Prefer not to say,75% - 89%,15,No,0,1.0,1.5,Often,8.0,1,No,0,2,1,1,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,1.77,0,75.0,0
+11/9/2025 13:30,2,College of Engineering,Female,1.0 - 1.75,,90% and above,21,No,0,4.0,1.5,Never,7.5,6,Occasionally,2,5,1,5,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,1.68,0,90.0,0
+11/13/2025 20:21,1,College of Nursing,Female,1.76 - 2.25,1 subject,90% and above,21,No,0,1.5,4.0,Often,4.0,7,No,0,4,2,3,"Kinesthetic, Visual, Auditory, Reading/Writing",At-Risk,2.36,1,90.0,1
+11/13/2025 15:58,2,College of Education,Male,Prefer not to say,,75% - 89%,15,No,0,3.5,1.0,Never,8.0,8,Occasionally,5,2,5,2,"Visual, Reading/Writing",Not At-Risk,,0,75.0,0
+11/9/2025 13:30,2,College of Engineering,Female,1.0 - 1.75,,90% and above,21,No,0,4.0,1.5,Never,7.5,6,Occasionally,2,5,1,5,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,1.72,0,90.0,0
+11/13/2025 15:58,2,College of Education,Male,Prefer not to say,,75% - 89%,15,No,0,3.5,1.0,Never,8.0,8,Occasionally,5,2,5,2,"Visual, Reading/Writing",Not At-Risk,,0,75.0,0
+11/12/2025 5:26,3,College of Business and Management,Male,1.0 - 1.75,Prefer not to say,Prefer not to say,18,Yes,10,1.5,1.5,Rarely,8.0,1,Heavily,5,4,2,5,Reading/Writing,Not At-Risk,1.7,0,0.0,1
+11/12/2025 21:38,1,College of Agriculture,Male,1.0 - 1.75,,Prefer not to say,18,Yes,15,1.5,1.0,Never,5.0,0,Heavily,6,4,4,3,Auditory,Not At-Risk,1.8,0,0.0,1
+11/9/2025 13:30,2,College of Engineering,Female,1.0 - 1.75,,90% and above,21,No,0,4.0,1.5,Never,7.5,6,Occasionally,2,5,1,5,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,1.75,0,90.0,0
+10/23/2025 16:06,1,College of Information Sciences and Computing,Female,1.0 - 1.75,1 subject,90% and above,15,No,0,3.5,1.0,Never,4.0,1,Occasionally,2,4,3,3,"Kinesthetic, Reading/Writing",At-Risk,1.77,1,90.0,1
+11/9/2025 13:30,2,College of Engineering,Female,1.0 - 1.75,,90% and above,21,No,0,4.0,1.5,Never,7.5,6,Occasionally,2,5,1,5,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,1.66,0,90.0,0
+11/13/2025 15:58,2,College of Education,Male,Prefer not to say,,75% - 89%,15,No,0,3.5,1.0,Never,8.0,8,Occasionally,5,2,5,2,"Visual, Reading/Writing",Not At-Risk,,0,75.0,0
+11/13/2025 10:25,3,College of Engineering,Female,Prefer not to say,2 subjects,Prefer not to say,18,Yes,10,3.5,1.0,Never,8.0,0,Occasionally,0,4,2,3,"Kinesthetic, Reading/Writing",At-Risk,,2,0.0,1
+11/9/2025 13:30,2,College of Engineering,Female,1.0 - 1.75,,90% and above,21,No,0,4.0,1.5,Never,7.5,6,Occasionally,2,5,1,5,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,1.79,0,90.0,0
+11/7/2025 22:39,1,College of Nursing,Prefer not to say,2.26 - 2.75,3 or more subjects,Prefer not to say,21,No,0,3.5,1.0,Never,4.0,0,Occasionally,2,1,5,3,"Kinesthetic, Visual, Auditory, Reading/Writing",At-Risk,2.72,3,0.0,1
+11/4/2025 3:25,4,College of Arts and Sciences,Female,Prefer not to say,Prefer not to say,90% and above,21,Yes,0,3.5,4.0,Rarely,5.0,30.5,No,0,3,1,3,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,90.0,0
+10/20/2025 5:19,1,College of Forestry and Environmental Science,Prefer not to say,1.0 - 1.75,,75% - 89%,18,Yes,20,1.0,3.5,Rarely,5.0,10.5,Occasionally,0,3,4,1,"Visual, Auditory, Reading/Writing",Not At-Risk,1.68,0,75.0,0
+10/29/2025 4:20,4,College of Business and Management,Prefer not to say,Prefer not to say,Prefer not to say,90% and above,21,Yes,20,1.0,1.0,Never,7.5,15,Occasionally,5,3,5,3,Visual,Not At-Risk,,0,90.0,0
+10/15/2025 9:53,4,College of Arts and Sciences,Female,2.26 - 2.75,1 subject,90% and above,21,No,0,3.5,1.0,Never,5.0,0,Regularly,6,3,3,3,"Auditory, Reading/Writing",At-Risk,2.82,1,90.0,1
+11/1/2025 16:11,3,College of Nursing,Female,1.76 - 2.25,3 or more subjects,Prefer not to say,15,Yes,20,1.5,1.5,Rarely,5.0,0,No,0,5,1,4,"Kinesthetic, Visual",At-Risk,2.29,3,0.0,1
+10/19/2025 17:30,4,College of Education,Prefer not to say,1.76 - 2.25,Prefer not to say,75% - 89%,18,No,0,3.5,1.0,Often,7.5,1,No,0,4,5,3,"Kinesthetic, Visual",At-Risk,2.15,0,75.0,0
+11/2/2025 20:31,4,College of Forestry and Environmental Science,Male,1.76 - 2.25,1 subject,90% and above,18,No,0,3.5,4.0,Never,4.0,0,Regularly,5,4,2,1,"Visual, Auditory, Reading/Writing",At-Risk,2.22,1,90.0,1
+11/7/2025 20:07,4,College of Forestry and Environmental Science,Male,Prefer not to say,Prefer not to say,90% and above,18,Yes,10,1.0,1.0,Sometimes,4.0,25,No,0,1,1,1,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,,0,90.0,0
+11/9/2025 13:30,2,College of Engineering,Female,1.0 - 1.75,,90% and above,21,No,0,4.0,1.5,Never,7.5,6,Occasionally,2,5,1,5,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,1.73,0,90.0,0
+11/12/2025 5:26,3,College of Business and Management,Male,1.0 - 1.75,Prefer not to say,Prefer not to say,18,Yes,10,1.5,1.5,Rarely,8.0,1,Heavily,5,4,2,5,Reading/Writing,Not At-Risk,1.73,0,0.0,1
+11/13/2025 20:21,1,College of Nursing,Female,1.76 - 2.25,1 subject,90% and above,21,No,0,1.5,4.0,Often,4.0,7,No,0,4,2,3,"Kinesthetic, Visual, Auditory, Reading/Writing",At-Risk,2.3,1,90.0,1
+11/9/2025 8:49,4,College of Education,Male,2.26 - 2.75,,75% - 89%,21,Yes,10,1.5,4.0,Sometimes,5.0,1,Occasionally,2,3,5,4,"Kinesthetic, Auditory",At-Risk,2.77,0,75.0,1
+11/10/2025 6:37,4,College of Engineering,Prefer not to say,Prefer not to say,,75% - 89%,18,Yes,10,3.5,1.5,Rarely,7.5,0,Heavily,6,5,5,5,Auditory,Not At-Risk,,0,75.0,0
+11/12/2025 5:26,3,College of Business and Management,Male,1.0 - 1.75,Prefer not to say,Prefer not to say,18,Yes,10,1.5,1.5,Rarely,8.0,1,Heavily,5,4,2,5,Reading/Writing,Not At-Risk,1.73,0,0.0,1
+11/9/2025 13:30,2,College of Engineering,Female,1.0 - 1.75,,90% and above,21,No,0,4.0,1.5,Never,7.5,6,Occasionally,2,5,1,5,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,1.79,0,90.0,0
+10/28/2025 9:50,2,College of Arts and Sciences,Prefer not to say,2.26 - 2.75,Prefer not to say,75% - 89%,21,Yes,15,4.0,4.0,Rarely,4.0,1,Regularly,6,2,3,3,Reading/Writing,At-Risk,2.88,0,75.0,1
+11/4/2025 3:43,4,College of Human Ecology,Male,1.0 - 1.75,2 subjects,90% and above,15,Yes,15,4.0,3.5,Often,7.5,0,No,0,5,2,4,"Kinesthetic, Visual, Auditory, Reading/Writing",At-Risk,1.81,2,90.0,1
+10/26/2025 20:27,4,College of Human Ecology,Female,Prefer not to say,1 subject,Prefer not to say,21,Yes,15,1.0,1.0,Never,8.0,0,Regularly,2,5,4,5,"Visual, Auditory",At-Risk,,1,0.0,1
+10/15/2025 9:53,4,College of Arts and Sciences,Female,2.26 - 2.75,1 subject,90% and above,21,No,0,3.5,1.0,Never,5.0,0,Regularly,6,3,3,3,"Auditory, Reading/Writing",At-Risk,2.85,1,90.0,1
+11/4/2025 2:23,1,College of Education,Prefer not to say,2.26 - 2.75,1 subject,90% and above,18,No,0,1.5,1.5,Never,5.0,0,Occasionally,5,1,2,1,Kinesthetic,At-Risk,2.78,1,90.0,1
+10/17/2025 13:03,4,College of Information Sciences and Computing,Female,1.0 - 1.75,3 or more subjects,75% - 89%,15,Yes,20,1.0,1.5,Rarely,8.0,0,No,0,1,3,5,"Kinesthetic, Auditory, Reading/Writing",At-Risk,1.73,3,75.0,1
+10/26/2025 2:17,3,College of Nursing,Prefer not to say,Prefer not to say,Prefer not to say,75% - 89%,21,No,0,1.0,4.0,Never,4.0,0,No,0,3,4,1,"Visual, Auditory, Reading/Writing",Not At-Risk,,0,75.0,0
+11/9/2025 13:30,2,College of Engineering,Female,1.0 - 1.75,,90% and above,21,No,0,4.0,1.5,Never,7.5,6,Occasionally,2,5,1,5,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,1.73,0,90.0,0
+10/16/2025 21:10,1,College of Agriculture,Female,Prefer not to say,2 subjects,90% and above,18,Yes,15,4.0,1.0,Sometimes,7.5,0,No,0,5,1,5,"Kinesthetic, Visual",At-Risk,,2,90.0,1
+10/26/2025 22:47,4,College of Nursing,Prefer not to say,Prefer not to say,,Prefer not to say,21,Yes,10,1.5,3.5,Never,4.0,13.5,No,0,2,4,1,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,0.0,1
+11/12/2025 21:38,1,College of Agriculture,Male,1.0 - 1.75,,Prefer not to say,18,Yes,15,1.5,1.0,Never,5.0,0,Heavily,6,4,4,3,Auditory,Not At-Risk,1.76,0,0.0,1
+11/2/2025 20:31,4,College of Forestry and Environmental Science,Male,1.76 - 2.25,1 subject,90% and above,18,No,0,3.5,4.0,Never,4.0,0,Regularly,5,4,2,1,"Visual, Auditory, Reading/Writing",At-Risk,2.15,1,90.0,1
+11/10/2025 6:37,4,College of Engineering,Prefer not to say,Prefer not to say,,75% - 89%,18,Yes,10,3.5,1.5,Rarely,7.5,0,Heavily,6,5,5,5,Auditory,Not At-Risk,,0,75.0,0
+10/22/2025 9:35,3,College of Human Ecology,Female,1.0 - 1.75,1 subject,Prefer not to say,21,Yes,20,1.0,3.5,Rarely,5.0,1,Occasionally,2,5,4,3,"Visual, Auditory, Reading/Writing",At-Risk,1.67,1,0.0,1
+11/12/2025 5:26,3,College of Business and Management,Male,1.0 - 1.75,Prefer not to say,Prefer not to say,18,Yes,10,1.5,1.5,Rarely,8.0,1,Heavily,5,4,2,5,Reading/Writing,Not At-Risk,1.76,0,0.0,1
+10/26/2025 22:47,4,College of Nursing,Prefer not to say,Prefer not to say,,Prefer not to say,21,Yes,10,1.5,3.5,Never,4.0,13.5,No,0,2,4,1,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,0.0,1
+11/2/2025 10:46,2,College of Education,Male,2.26 - 2.75,,Prefer not to say,18,Yes,15,1.0,1.5,Often,7.5,0,Regularly,5,2,3,2,"Kinesthetic, Visual, Auditory, Reading/Writing",At-Risk,2.82,0,0.0,1
+11/1/2025 16:11,3,College of Nursing,Female,1.76 - 2.25,3 or more subjects,Prefer not to say,15,Yes,20,1.5,1.5,Rarely,5.0,0,No,0,5,1,4,"Kinesthetic, Visual",At-Risk,2.26,3,0.0,1
+10/23/2025 16:06,1,College of Information Sciences and Computing,Female,1.0 - 1.75,1 subject,90% and above,15,No,0,3.5,1.0,Never,4.0,1,Occasionally,2,4,3,3,"Kinesthetic, Reading/Writing",At-Risk,1.73,1,90.0,1
+10/26/2025 23:47,3,College of Engineering,Prefer not to say,1.0 - 1.75,Prefer not to say,Prefer not to say,21,No,0,1.0,3.5,Never,5.0,1,Regularly,5,1,1,5,"Kinesthetic, Auditory, Reading/Writing",Not At-Risk,1.67,0,0.0,1
+10/26/2025 23:47,3,College of Engineering,Prefer not to say,1.0 - 1.75,Prefer not to say,Prefer not to say,21,No,0,1.0,3.5,Never,5.0,1,Regularly,5,1,1,5,"Kinesthetic, Auditory, Reading/Writing",Not At-Risk,1.82,0,0.0,1
+10/19/2025 17:30,4,College of Education,Prefer not to say,1.76 - 2.25,Prefer not to say,75% - 89%,18,No,0,3.5,1.0,Often,7.5,1,No,0,4,5,3,"Kinesthetic, Visual",At-Risk,2.21,0,75.0,0
+10/15/2025 9:53,4,College of Arts and Sciences,Female,2.26 - 2.75,1 subject,90% and above,21,No,0,3.5,1.0,Never,5.0,0,Regularly,6,3,3,3,"Auditory, Reading/Writing",At-Risk,2.88,1,90.0,1
+10/26/2025 22:47,4,College of Nursing,Prefer not to say,Prefer not to say,,Prefer not to say,21,Yes,10,1.5,3.5,Never,4.0,13.5,No,0,2,4,1,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,0.0,1
+10/26/2025 22:47,4,College of Nursing,Prefer not to say,Prefer not to say,,Prefer not to say,21,Yes,10,1.5,3.5,Never,4.0,13.5,No,0,2,4,1,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,0.0,1
+11/13/2025 15:58,2,College of Education,Male,Prefer not to say,,75% - 89%,15,No,0,3.5,1.0,Never,8.0,8,Occasionally,5,2,5,2,"Visual, Reading/Writing",Not At-Risk,,0,75.0,0
+11/4/2025 3:25,4,College of Arts and Sciences,Female,Prefer not to say,Prefer not to say,90% and above,21,Yes,0,3.5,4.0,Rarely,5.0,30.5,No,0,3,1,3,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,90.0,0
+10/13/2025 10:44,1,College of Engineering,Female,Prefer not to say,Prefer not to say,90% and above,21,Yes,10,1.0,1.5,Rarely,5.0,0,No,0,5,2,5,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,90.0,0
+11/10/2025 6:37,4,College of Engineering,Prefer not to say,Prefer not to say,,75% - 89%,18,Yes,10,3.5,1.5,Rarely,7.5,0,Heavily,6,5,5,5,Auditory,Not At-Risk,,0,75.0,0
+11/9/2025 13:30,2,College of Engineering,Female,1.0 - 1.75,,90% and above,21,No,0,4.0,1.5,Never,7.5,6,Occasionally,2,5,1,5,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,1.78,0,90.0,0
+11/9/2025 13:30,2,College of Engineering,Female,1.0 - 1.75,,90% and above,21,No,0,4.0,1.5,Never,7.5,6,Occasionally,2,5,1,5,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,1.75,0,90.0,0
+10/28/2025 9:50,2,College of Arts and Sciences,Prefer not to say,2.26 - 2.75,Prefer not to say,75% - 89%,21,Yes,15,4.0,4.0,Rarely,4.0,1,Regularly,6,2,3,3,Reading/Writing,At-Risk,2.63,0,75.0,1
+10/23/2025 16:06,1,College of Information Sciences and Computing,Female,1.0 - 1.75,1 subject,90% and above,15,No,0,3.5,1.0,Never,4.0,1,Occasionally,2,4,3,3,"Kinesthetic, Reading/Writing",At-Risk,1.74,1,90.0,1
+11/7/2025 20:07,4,College of Forestry and Environmental Science,Male,Prefer not to say,Prefer not to say,90% and above,18,Yes,10,1.0,1.0,Sometimes,4.0,25,No,0,1,1,1,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,,0,90.0,0
+10/26/2025 23:47,3,College of Engineering,Prefer not to say,1.0 - 1.75,Prefer not to say,Prefer not to say,21,No,0,1.0,3.5,Never,5.0,1,Regularly,5,1,1,5,"Kinesthetic, Auditory, Reading/Writing",Not At-Risk,1.69,0,0.0,1
+10/29/2025 4:20,4,College of Business and Management,Prefer not to say,Prefer not to say,Prefer not to say,90% and above,21,Yes,20,1.0,1.0,Never,7.5,15,Occasionally,5,3,5,3,Visual,Not At-Risk,,0,90.0,0
+11/13/2025 10:25,3,College of Engineering,Female,Prefer not to say,2 subjects,Prefer not to say,18,Yes,10,3.5,1.0,Never,8.0,0,Occasionally,0,4,2,3,"Kinesthetic, Reading/Writing",At-Risk,,2,0.0,1
+11/4/2025 2:23,1,College of Education,Prefer not to say,2.26 - 2.75,1 subject,90% and above,18,No,0,1.5,1.5,Never,5.0,0,Occasionally,5,1,2,1,Kinesthetic,At-Risk,2.8,1,90.0,1
+10/15/2025 3:21,4,College of Business and Management,Male,1.0 - 1.75,3 or more subjects,90% and above,21,Yes,15,1.0,1.5,Never,5.0,9,No,0,3,2,5,"Visual, Auditory, Reading/Writing",At-Risk,1.8,3,90.0,1
+10/17/2025 13:03,4,College of Information Sciences and Computing,Female,1.0 - 1.75,3 or more subjects,75% - 89%,15,Yes,20,1.0,1.5,Rarely,8.0,0,No,0,1,3,5,"Kinesthetic, Auditory, Reading/Writing",At-Risk,1.75,3,75.0,1
+11/4/2025 2:23,1,College of Education,Prefer not to say,2.26 - 2.75,1 subject,90% and above,18,No,0,1.5,1.5,Never,5.0,0,Occasionally,5,1,2,1,Kinesthetic,At-Risk,2.8,1,90.0,1
+11/11/2025 21:33,4,College of Nursing,Prefer not to say,1.0 - 1.75,,75% - 89%,21,Yes,10,1.0,1.5,Rarely,7.5,1,Occasionally,5,5,4,5,Auditory,Not At-Risk,1.79,0,75.0,0
+11/9/2025 13:30,2,College of Engineering,Female,1.0 - 1.75,,90% and above,21,No,0,4.0,1.5,Never,7.5,6,Occasionally,2,5,1,5,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,1.8,0,90.0,0
+10/26/2025 22:47,4,College of Nursing,Prefer not to say,Prefer not to say,,Prefer not to say,21,Yes,10,1.5,3.5,Never,4.0,13.5,No,0,2,4,1,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,,0,0.0,1
+10/28/2025 19:25,4,College of Engineering,Prefer not to say,1.0 - 1.75,Prefer not to say,75% - 89%,15,No,0,1.0,1.5,Often,8.0,1,No,0,2,1,1,"Kinesthetic, Visual, Reading/Writing",Not At-Risk,1.81,0,75.0,0
+10/19/2025 10:26,2,College of Arts and Sciences,Prefer not to say,1.76 - 2.25,3 or more subjects,Prefer not to say,15,No,0,1.5,3.5,Rarely,8.0,1,No,0,2,2,3,"Kinesthetic, Visual, Reading/Writing",At-Risk,2.15,3,0.0,1
+10/25/2025 2:37,2,College of Agriculture,Prefer not to say,Prefer not to say,3 or more subjects,90% and above,15,No,0,3.5,1.5,Often,7.5,#VALUE!,Occasionally,2,3,3,5,"Kinesthetic, Auditory",At-Risk,,3,90.0,1
+11/13/2025 15:58,2,College of Education,Male,Prefer not to say,,75% - 89%,15,No,0,3.5,1.0,Never,8.0,8,Occasionally,5,2,5,2,"Visual, Reading/Writing",Not At-Risk,,0,75.0,0
+11/9/2025 13:30,2,College of Engineering,Female,1.0 - 1.75,,90% and above,21,No,0,4.0,1.5,Never,7.5,6,Occasionally,2,5,1,5,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,1.72,0,90.0,0
+11/4/2025 2:23,1,College of Education,Prefer not to say,2.26 - 2.75,1 subject,90% and above,18,No,0,1.5,1.5,Never,5.0,0,Occasionally,5,1,2,1,Kinesthetic,At-Risk,2.79,1,90.0,1
+10/15/2025 9:53,4,College of Arts and Sciences,Female,2.26 - 2.75,1 subject,90% and above,21,No,0,3.5,1.0,Never,5.0,0,Regularly,6,3,3,3,"Auditory, Reading/Writing",At-Risk,2.81,1,90.0,1
+11/6/2025 9:55,2,College of Agriculture,Male,Prefer not to say,1 subject,90% and above,18,No,0,3.5,4.0,Never,7.5,1,Regularly,2,3,2,3,"Kinesthetic, Reading/Writing",At-Risk,,1,90.0,1
+11/9/2025 13:30,2,College of Engineering,Female,1.0 - 1.75,,90% and above,21,No,0,4.0,1.5,Never,7.5,6,Occasionally,2,5,1,5,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,1.77,0,90.0,0
+11/9/2025 13:30,2,College of Engineering,Female,1.0 - 1.75,,90% and above,21,No,0,4.0,1.5,Never,7.5,6,Occasionally,2,5,1,5,"Kinesthetic, Visual, Auditory, Reading/Writing",Not At-Risk,1.77,0,90.0,0
+11/12/2025 21:38,1,College of Agriculture,Male,1.0 - 1.75,,Prefer not to say,18,Yes,15,1.5,1.0,Never,5.0,0,Heavily,6,4,4,3,Auditory,Not At-Risk,1.75,0,0.0,1
+10/19/2025 10:26,2,College of Arts and Sciences,Prefer not to say,1.76 - 2.25,3 or more subjects,Prefer not to say,15,No,0,1.5,3.5,Rarely,8.0,1,No,0,2,2,3,"Kinesthetic, Visual, Reading/Writing",At-Risk,2.34,3,0.0,1
+10/28/2025 5:26,4,College of Nursing,Prefer not to say,2.26 - 2.75,Prefer not to say,Prefer not to say,18,Yes,15,1.5,4.0,Rarely,4.0,0,Occasionally,2,4,5,3,"Kinesthetic, Visual, Auditory, Reading/Writing",At-Risk,2.77,0,0.0,1
+10/22/2025 23:18,3,College of Business and Management,Prefer not to say,Prefer not to say,1 subject,90% and above,21,Yes,20,1.5,1.0,Rarely,7.5,1,No,0,2,1,1,"Kinesthetic, Visual, Auditory, Reading/Writing",At-Risk,,1,90.0,1
