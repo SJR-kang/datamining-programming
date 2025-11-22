@@ -145,7 +145,7 @@ def train_and_save_model():
 # Load model
 model, scaler = train_and_save_model()
 
-# Initialize session state for form values
+# Initialize session state for conditional fields
 if 'extracurricular_hours' not in st.session_state:
     st.session_state.extracurricular_hours = 0.0
 if 'work_hours' not in st.session_state:
@@ -183,16 +183,11 @@ if model and scaler:
         col3, col4 = st.columns(2)
         
         with col3:
-            st.write("**Extracurricular Activities**")
-            extracurricular_involved = st.radio(
-                "Involved in Extracurricular Activities?",
-                ["No", "Yes"],
-                key="extracurricular_radio"
-            )
+            extracurricular_involved = st.radio("Involved in Extracurricular Activities?", ["No", "Yes"], key="extracurricular_radio")
             
             # Only show hours input if "Yes" is selected
             if extracurricular_involved == "Yes":
-                extracurricular_hours = st.number_input(
+                st.session_state.extracurricular_hours = st.number_input(
                     "Extracurricular Hours per Week", 
                     min_value=0.0, 
                     max_value=40.0, 
@@ -201,19 +196,16 @@ if model and scaler:
                     key="extracurricular_hours_input"
                 )
             else:
-                extracurricular_hours = 0.0
+                st.session_state.extracurricular_hours = 0.0
+                # Show a disabled input or just text when "No" is selected
+                st.info("No extracurricular hours (set to 0)")
         
         with col4:
-            st.write("**Part-time Work**")
-            part_time_work = st.radio(
-                "Work Part-time?",
-                ["No", "Yes"],
-                key="part_time_radio"
-            )
+            part_time_work = st.radio("Work Part-time?", ["No", "Yes"], key="work_radio")
             
             # Only show hours input if "Yes" is selected
             if part_time_work == "Yes":
-                work_hours = st.number_input(
+                st.session_state.work_hours = st.number_input(
                     "Work Hours per Week", 
                     min_value=0.0, 
                     max_value=40.0, 
@@ -222,11 +214,17 @@ if model and scaler:
                     key="work_hours_input"
                 )
             else:
-                work_hours = 0.0
+                st.session_state.work_hours = 0.0
+                # Show a disabled input or just text when "No" is selected
+                st.info("No work hours (set to 0)")
 
         submitted = st.form_submit_button("🔍 Predict Risk")
 
     if submitted:
+        # Use the session state values
+        extracurricular_hours = st.session_state.extracurricular_hours
+        work_hours = st.session_state.work_hours
+        
         # Calculate features
         total_study_hours = study_weekdays + study_weekends
         study_efficiency = total_study_hours / (late_submissions + 0.1)
@@ -269,8 +267,26 @@ if model and scaler:
             for i, cls in enumerate(model.classes_):
                 st.write(f"**{cls}:** {probability[i]:.1%}")
         
-        # Show feature values
+        # Show feature values and activity summary
         st.subheader("🔍 Feature Analysis")
+        
+        # Activity Summary
+        st.subheader("📋 Activity Summary")
+        activity_col1, activity_col2 = st.columns(2)
+        
+        with activity_col1:
+            st.write("**Extracurricular Activities:**")
+            st.write(f"- Involved: {'Yes' if extracurricular_involved == 'Yes' else 'No'}")
+            if extracurricular_involved == "Yes":
+                st.write(f"- Hours per week: {extracurricular_hours}")
+        
+        with activity_col2:
+            st.write("**Part-time Work:**")
+            st.write(f"- Working: {'Yes' if part_time_work == 'Yes' else 'No'}")
+            if part_time_work == "Yes":
+                st.write(f"- Hours per week: {work_hours}")
+        
+        # Feature values table
         feature_data = {
             'Feature': [
                 'Total Study Hours', 'Study Efficiency', 'Academic Engagement',
@@ -284,18 +300,6 @@ if model and scaler:
             ]
         }
         st.table(pd.DataFrame(feature_data))
-        
-        # Show activity summary
-        st.subheader("📋 Activity Summary")
-        activity_data = {
-            'Activity': ['Extracurricular Activities', 'Part-time Work', 'Gaming'],
-            'Status': [
-                f"{'Yes' if extracurricular_involved == 'Yes' else 'No'} ({extracurricular_hours} hrs/week)" if extracurricular_involved == 'Yes' else 'No',
-                f"{'Yes' if part_time_work == 'Yes' else 'No'} ({work_hours} hrs/week)" if part_time_work == 'Yes' else 'No',
-                f"{gaming_hours} hrs/day"
-            ]
-        }
-        st.table(pd.DataFrame(activity_data))
 
 else:
     st.error("❌ Model not available. Please check your dataset.")
