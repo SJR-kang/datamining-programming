@@ -178,11 +178,17 @@ if model and scaler:
         
         with col3:
             extracurricular_involved = st.radio("Involved in Extracurricular Activities?", ["No", "Yes"])
-            extracurricular_hours = st.number_input("Extracurricular Hours per Week", min_value=0.0, max_value=40.0, value=0.0, step=0.5) if extracurricular_involved == "Yes" else 0.0
+            if extracurricular_involved == "Yes":
+                extracurricular_hours = st.number_input("Extracurricular Hours per Week", min_value=0.0, max_value=40.0, value=5.0, step=0.5)
+            else:
+                extracurricular_hours = 0.0
         
         with col4:
             part_time_work = st.radio("Work Part-time?", ["No", "Yes"])
-            work_hours = st.number_input("Work Hours per Week", min_value=0.0, max_value=40.0, value=0.0, step=0.5) if part_time_work == "Yes" else 0.0
+            if part_time_work == "Yes":
+                work_hours = st.number_input("Work Hours per Week", min_value=0.0, max_value=40.0, value=10.0, step=0.5)
+            else:
+                work_hours = 0.0
 
         submitted = st.form_submit_button("🔍 Predict Risk")
 
@@ -228,6 +234,25 @@ if model and scaler:
             st.subheader("Probability Breakdown")
             for i, cls in enumerate(model.classes_):
                 st.write(f"**{cls}:** {probability[i]:.1%}")
+        
+        # Show feature values
+        st.subheader("🔍 Feature Analysis")
+        feature_data = {
+            'Feature': [
+                'Total Study Hours', 'Study Efficiency', 'Academic Engagement',
+                'Stress Balance', 'Time Burden', 'Study-Gaming Ratio',
+                'Sleep-Study Ratio', 'Study per Unit'
+            ],
+            'Value': [
+                f"{total_study_hours:.1f}", f"{study_efficiency:.1f}", f"{academic_engagement:.1f}",
+                f"{stress_balance:.1f}", f"{time_burden:.1f}", f"{study_gaming_ratio:.1f}",
+                f"{sleep_study_ratio:.2f}", f"{study_per_unit:.2f}"
+            ]
+        }
+        st.table(pd.DataFrame(feature_data))
+
+else:
+    st.error("❌ Model not available. Please check your dataset.")
 
 # Sidebar
 with st.sidebar:
@@ -240,6 +265,14 @@ with st.sidebar:
     **Model:** Logistic Regression
     **Features:** 8 engineered metrics
     """)
-
-else:
-    st.error("❌ Model not available. Please check your dataset.")
+    
+    st.header("📈 Feature Descriptions")
+    st.markdown("""
+    - **Study Efficiency**: Total study hours adjusted for late submissions
+    - **Academic Engagement**: Extracurricular + social support
+    - **Stress Balance**: Stress level minus social support  
+    - **Time Burden**: Work + gaming hours
+    - **Study-Gaming Ratio**: Balance between study and gaming
+    - **Sleep-Study Ratio**: Sleep hours relative to study time
+    """)
+    
