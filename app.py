@@ -145,6 +145,12 @@ def train_and_save_model():
 # Load model
 model, scaler = train_and_save_model()
 
+# Initialize session state for form values
+if 'extracurricular_hours' not in st.session_state:
+    st.session_state.extracurricular_hours = 0.0
+if 'work_hours' not in st.session_state:
+    st.session_state.work_hours = 0.0
+
 # Prediction form
 if model and scaler:
     with st.form("student_form"):
@@ -177,16 +183,44 @@ if model and scaler:
         col3, col4 = st.columns(2)
         
         with col3:
-            extracurricular_involved = st.radio("Involved in Extracurricular Activities?", ["No", "Yes"])
+            st.write("**Extracurricular Activities**")
+            extracurricular_involved = st.radio(
+                "Involved in Extracurricular Activities?",
+                ["No", "Yes"],
+                key="extracurricular_radio"
+            )
+            
+            # Only show hours input if "Yes" is selected
             if extracurricular_involved == "Yes":
-                extracurricular_hours = st.number_input("Extracurricular Hours per Week", min_value=0.0, max_value=40.0, value=5.0, step=0.5)
+                extracurricular_hours = st.number_input(
+                    "Extracurricular Hours per Week", 
+                    min_value=0.0, 
+                    max_value=40.0, 
+                    value=5.0, 
+                    step=0.5,
+                    key="extracurricular_hours_input"
+                )
             else:
                 extracurricular_hours = 0.0
         
         with col4:
-            part_time_work = st.radio("Work Part-time?", ["No", "Yes"])
+            st.write("**Part-time Work**")
+            part_time_work = st.radio(
+                "Work Part-time?",
+                ["No", "Yes"],
+                key="part_time_radio"
+            )
+            
+            # Only show hours input if "Yes" is selected
             if part_time_work == "Yes":
-                work_hours = st.number_input("Work Hours per Week", min_value=0.0, max_value=40.0, value=10.0, step=0.5)
+                work_hours = st.number_input(
+                    "Work Hours per Week", 
+                    min_value=0.0, 
+                    max_value=40.0, 
+                    value=10.0, 
+                    step=0.5,
+                    key="work_hours_input"
+                )
             else:
                 work_hours = 0.0
 
@@ -250,6 +284,18 @@ if model and scaler:
             ]
         }
         st.table(pd.DataFrame(feature_data))
+        
+        # Show activity summary
+        st.subheader("📋 Activity Summary")
+        activity_data = {
+            'Activity': ['Extracurricular Activities', 'Part-time Work', 'Gaming'],
+            'Status': [
+                f"{'Yes' if extracurricular_involved == 'Yes' else 'No'} ({extracurricular_hours} hrs/week)" if extracurricular_involved == 'Yes' else 'No',
+                f"{'Yes' if part_time_work == 'Yes' else 'No'} ({work_hours} hrs/week)" if part_time_work == 'Yes' else 'No',
+                f"{gaming_hours} hrs/day"
+            ]
+        }
+        st.table(pd.DataFrame(activity_data))
 
 else:
     st.error("❌ Model not available. Please check your dataset.")
@@ -275,4 +321,3 @@ with st.sidebar:
     - **Study-Gaming Ratio**: Balance between study and gaming
     - **Sleep-Study Ratio**: Sleep hours relative to study time
     """)
-    
