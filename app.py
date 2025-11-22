@@ -145,12 +145,6 @@ def train_and_save_model():
 # Load model
 model, scaler = train_and_save_model()
 
-# Initialize session state for conditional fields
-if 'extracurricular_hours' not in st.session_state:
-    st.session_state.extracurricular_hours = 0.0
-if 'work_hours' not in st.session_state:
-    st.session_state.work_hours = 0.0
-
 # Prediction form
 if model and scaler:
     with st.form("student_form"):
@@ -185,9 +179,12 @@ if model and scaler:
         with col3:
             extracurricular_involved = st.radio("Involved in Extracurricular Activities?", ["No", "Yes"], key="extracurricular_radio")
             
-            # Only show hours input if "Yes" is selected
+            # Initialize extracurricular_hours
+            extracurricular_hours = 0.0
+            
+            # Show hours input immediately when "Yes" is selected
             if extracurricular_involved == "Yes":
-                st.session_state.extracurricular_hours = st.number_input(
+                extracurricular_hours = st.number_input(
                     "Extracurricular Hours per Week", 
                     min_value=0.0, 
                     max_value=40.0, 
@@ -195,17 +192,16 @@ if model and scaler:
                     step=0.5,
                     key="extracurricular_hours_input"
                 )
-            else:
-                st.session_state.extracurricular_hours = 0.0
-                # Show a disabled input or just text when "No" is selected
-                st.info("No extracurricular hours (set to 0)")
         
         with col4:
             part_time_work = st.radio("Work Part-time?", ["No", "Yes"], key="work_radio")
             
-            # Only show hours input if "Yes" is selected
+            # Initialize work_hours
+            work_hours = 0.0
+            
+            # Show hours input immediately when "Yes" is selected
             if part_time_work == "Yes":
-                st.session_state.work_hours = st.number_input(
+                work_hours = st.number_input(
                     "Work Hours per Week", 
                     min_value=0.0, 
                     max_value=40.0, 
@@ -213,18 +209,10 @@ if model and scaler:
                     step=0.5,
                     key="work_hours_input"
                 )
-            else:
-                st.session_state.work_hours = 0.0
-                # Show a disabled input or just text when "No" is selected
-                st.info("No work hours (set to 0)")
 
         submitted = st.form_submit_button("🔍 Predict Risk")
 
     if submitted:
-        # Use the session state values
-        extracurricular_hours = st.session_state.extracurricular_hours
-        work_hours = st.session_state.work_hours
-        
         # Calculate features
         total_study_hours = study_weekdays + study_weekends
         study_efficiency = total_study_hours / (late_submissions + 0.1)
