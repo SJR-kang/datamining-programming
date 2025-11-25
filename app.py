@@ -2,58 +2,68 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
-from pathlib import Path
 
 # =================================================================
-# SVG ICON DEFINITIONS (Replace Emojis)
+# IMPROVED SVG ICON DEFINITIONS (Better looking)
 # =================================================================
 
 SVG_ICONS = {
     "book": """
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-        <path d="M5 3h14c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2H5c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2zm0 2v14h14V5H5z"/>
-        <path d="M7 7h2v2H7zm4 0h2v2h-2zm4 0h2v2h-2zM7 11h2v2H7zm4 0h2v2h-2zm4 0h2v2h-2z"/>
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
     </svg>
     """,
+    
     "game": """
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-        <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/>
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="6 9 6 2 18 2 18 9"></polyline>
+        <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+        <rect x="6" y="14" width="12" height="8"></rect>
     </svg>
     """,
+    
     "work": """
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-        <path d="M20 6h-2.18c.11-.89.32-1.75.64-2.59.44-1.26.33-2.64-.3-3.84-.91-1.6-2.93-2.57-4.61-2.57-.82 0-1.61.24-2.29.67-.69-.43-1.47-.67-2.29-.67-1.68 0-3.7.97-4.61 2.57-.63 1.2-.74 2.58-.3 3.84.32.84.53 1.7.64 2.59H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-5-2c.82 0 1.5.68 1.5 1.5S15.82 7 15 7c-.82 0-1.5-.68-1.5-1.5S14.18 4 15 4zm-6 0c.82 0 1.5.68 1.5 1.5S9.82 7 9 7c-.82 0-1.5-.68-1.5-1.5S8.18 4 9 4z"/>
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+        <path d="M16 3h-2a2 2 0 0 0-2 2v2H8V5a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v2"></path>
     </svg>
     """,
+    
     "activities": """
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/>
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"></circle>
+        <polyline points="12 6 12 12 16 14"></polyline>
     </svg>
     """,
+    
     "health": """
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.5-9c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zm-7 0c.83 0 1.5.67 1.5 1.5S9.33 12 8.5 12 7 11.33 7 10.5 7.67 9 8.5 9zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/>
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
     </svg>
     """,
+    
     "result_at_risk": """
-    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
-        <circle cx="12" cy="12" r="10" fill="#dc2626"/>
-        <path d="M12 7v5m0 4v1" stroke="white" stroke-width="2" stroke-linecap="round"/>
+    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="12" y1="8" x2="12" y2="12"></line>
+        <line x1="12" y1="16" x2="12.01" y2="16"></line>
     </svg>
     """,
+    
     "result_safe": """
-    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
-        <circle cx="12" cy="12" r="10" fill="#16a34a"/>
-        <path d="M10 13l2 2 4-4" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="20 6 9 17 4 12"></polyline>
     </svg>
-    """
+    """,
 }
 
-def render_svg(svg_name):
-    """Render SVG icon in Streamlit"""
+def render_svg(svg_name, color="currentColor"):
+    """Render SVG icon with custom color"""
     if svg_name in SVG_ICONS:
+        svg_code = SVG_ICONS[svg_name].replace("currentColor", color)
         st.markdown(
-            f'<div style="display:inline-block;">{SVG_ICONS[svg_name]}</div>',
+            f'<div style="display: inline-block; vertical-align: middle;">{svg_code}</div>',
             unsafe_allow_html=True
         )
 
@@ -70,8 +80,8 @@ def load_models():
         feature_order = joblib.load("feature_order.pkl")
         return scaler, svm_model, feature_order
     except FileNotFoundError as e:
-        st.error(f"❌ Model files not found: {e}")
-        st.info("Please ensure you have saved: scaler.pkl, svm_model.pkl, feature_order.pkl")
+        st.error(f"Error: Model files not found: {e}")
+        st.info("Please ensure scaler.pkl, svm_model.pkl, and feature_order.pkl are in the app directory")
         return None, None, None
 
 # =================================================================
@@ -80,13 +90,13 @@ def load_models():
 
 st.set_page_config(
     page_title="Student Risk Prediction",
-    page_icon="📊",
+    page_icon="🎓",
     layout="wide"
 )
 
-st.title("🎓 Student At-Risk Prediction System")
-st.markdown("**Using Support Vector Machine (SVM) Model**")
-st.write("Enter the student's information below. The model will predict whether they are at risk of academic failure.")
+st.title("Student At-Risk Prediction System")
+st.markdown("**Powered by Machine Learning (SVM Model)**")
+st.write("Enter student information below to predict academic risk status.")
 
 # =================================================================
 # LOAD MODELS
@@ -98,104 +108,119 @@ if scaler is None or svm_model is None or feature_order is None:
     st.stop()
 
 # =================================================================
-# INPUT SECTIONS
+# INPUT SECTIONS WITH IMPROVED ICONS
 # =================================================================
 
 st.markdown("---")
 
 # Study Information Section
-col1, col2 = st.columns([1, 20])
+col1, col2 = st.columns([0.5, 20])
 with col1:
-    render_svg("book")
+    render_svg("book", "#2563eb")
 with col2:
-    st.header("Study Information")
+    st.subheader("Study Information")
 
-study_weekdays = st.number_input(
-    "Study Hours on Weekdays",
-    min_value=0.0,
-    max_value=24.0,
-    step=0.5,
-    help="Average hours spent studying on weekdays"
-)
+col_a, col_b = st.columns(2)
+with col_a:
+    study_weekdays = st.number_input(
+        "Study Hours on Weekdays",
+        min_value=0.0,
+        max_value=24.0,
+        step=0.5,
+        value=5.0,
+        help="Average hours spent studying on weekdays"
+    )
 
-study_weekends = st.number_input(
-    "Study Hours on Weekends",
-    min_value=0.0,
-    max_value=24.0,
-    step=0.5,
-    help="Average hours spent studying on weekends"
-)
+with col_b:
+    study_weekends = st.number_input(
+        "Study Hours on Weekends",
+        min_value=0.0,
+        max_value=24.0,
+        step=0.5,
+        value=3.0,
+        help="Average hours spent studying on weekends"
+    )
 
-late_submissions = st.selectbox(
-    "Late Submission Frequency",
-    options=["never", "rarely", "sometimes", "often"],
-    help="How often do you submit assignments late?"
-)
+col_c, col_d = st.columns(2)
+with col_c:
+    late_submissions = st.selectbox(
+        "Late Submission Frequency",
+        options=["never", "rarely", "sometimes", "often"],
+        help="How often do you submit assignments late?"
+    )
+    late_map = {"never": 1, "rarely": 2, "sometimes": 3, "often": 4}
+    late_submissions_numeric = late_map[late_submissions]
 
-# Convert late submissions to numeric
-late_map = {"never": 1, "rarely": 2, "sometimes": 3, "often": 4}
-late_submissions_numeric = late_map[late_submissions]
-
-academic_units = st.number_input(
-    "Number of Academic Units (Last Semester)",
-    min_value=1.0,
-    max_value=50.0,
-    step=1.0,
-    help="Total academic units enrolled"
-)
+with col_d:
+    academic_units = st.number_input(
+        "Academic Units (Last Semester)",
+        min_value=1.0,
+        max_value=50.0,
+        step=1.0,
+        value=15.0,
+        help="Total academic units enrolled"
+    )
 
 st.markdown("---")
 
 # Gaming & Time Use Section
-col1, col2 = st.columns([1, 20])
+col1, col2 = st.columns([0.5, 20])
 with col1:
-    render_svg("game")
+    render_svg("game", "#f59e0b")
 with col2:
-    st.header("Gaming & Time Use")
+    st.subheader("Gaming & Time Use")
 
-gaming_play = st.radio(
-    "Do you play games?",
-    ["No", "Yes"],
-    horizontal=True
-)
-
-gaming_hours = 0.0
-if gaming_play == "Yes":
-    gaming_hours = st.number_input(
-        "Gaming Hours per Day",
-        min_value=0.0,
-        max_value=24.0,
-        step=0.5
+col_a, col_b = st.columns(2)
+with col_a:
+    gaming_play = st.radio(
+        "Do you play games?",
+        ["No", "Yes"],
+        horizontal=True,
+        key="gaming_play"
     )
+    gaming_hours = 0.0
+    if gaming_play == "Yes":
+        gaming_hours = st.number_input(
+            "Gaming Hours per Day",
+            min_value=0.0,
+            max_value=24.0,
+            step=0.5,
+            value=2.0,
+            key="gaming_hours"
+        )
 
-part_time = st.radio(
-    "Do you work part-time?",
-    ["No", "Yes"],
-    horizontal=True
-)
-
-work_hours = 0.0
-if part_time == "Yes":
-    work_hours = st.number_input(
-        "Work Hours per Week",
-        min_value=0.0,
-        max_value=168.0,
-        step=1.0
+with col_b:
+    part_time = st.radio(
+        "Do you work part-time?",
+        ["No", "Yes"],
+        horizontal=True,
+        key="part_time"
     )
+    work_hours = 0.0
+    if part_time == "Yes":
+        work_hours = st.number_input(
+            "Work Hours per Week",
+            min_value=0.0,
+            max_value=168.0,
+            step=1.0,
+            value=10.0,
+            key="work_hours"
+        )
 
 st.markdown("---")
 
 # Extracurricular Section
-col1, col2 = st.columns([1, 20])
+col1, col2 = st.columns([0.5, 20])
 with col1:
-    render_svg("activities")
+    render_svg("activities", "#8b5cf6")
 with col2:
-    st.header("Extracurricular Activities")
+    st.subheader("Extracurricular Activities")
 
 extra_involved = st.radio(
-    "Are you involved in extracurricular activities?",
+    "Involved in extracurricular activities?",
     ["No", "Yes"],
-    horizontal=True
+    horizontal=True,
+    key="extra_involved"
 )
 
 extracurricular_hours = 0.0
@@ -204,17 +229,19 @@ if extra_involved == "Yes":
         "Extracurricular Hours per Week",
         min_value=0.0,
         max_value=168.0,
-        step=1.0
+        step=1.0,
+        value=5.0,
+        key="extracurricular_hours"
     )
 
 st.markdown("---")
 
 # Well-Being Information Section
-col1, col2 = st.columns([1, 20])
+col1, col2 = st.columns([0.5, 20])
 with col1:
-    render_svg("health")
+    render_svg("health", "#ef4444")
 with col2:
-    st.header("Well-Being Information")
+    st.subheader("Well-Being Information")
 
 col_stress, col_support = st.columns(2)
 with col_stress:
@@ -241,7 +268,8 @@ with col_sleep:
         "Sleep Hours per Night",
         min_value=0.0,
         max_value=24.0,
-        step=0.5
+        step=0.5,
+        value=7.0
     )
 
 with col_financial:
@@ -305,7 +333,7 @@ if predict_button:
     # ========== DISPLAY RESULTS ==========
     st.markdown("---")
     
-    col_icon, col_result = st.columns([1, 4])
+    col_icon, col_result = st.columns([0.8, 5])
     
     with col_icon:
         if pred == 1:
@@ -317,40 +345,42 @@ if predict_button:
         if pred == 1:
             st.error(
                 f"### ⚠️ STUDENT IS AT-RISK\n"
-                f"**Confidence: {prob_at_risk:.1%}**",
+                f"**Risk Confidence: {prob_at_risk:.1%}**",
                 icon="⚠️"
             )
             st.warning(
-                "This student shows indicators of being at-risk for academic failure. "
-                "Consider providing academic support, counseling, or intervention programs."
+                "This student shows indicators of academic risk. "
+                "Consider providing academic support or intervention."
             )
         else:
             st.success(
                 f"### ✅ STUDENT IS NOT AT-RISK\n"
-                f"**Confidence: {prob_not_risk:.1%}**",
+                f"**Safety Confidence: {prob_not_risk:.1%}**",
                 icon="✅"
             )
             st.info(
-                "This student appears to be on track. Continue monitoring and provide "
-                "support as needed."
+                "This student appears to be on track academically."
             )
     
     # Probability Breakdown
     st.markdown("---")
-    st.subheader("Prediction Probabilities")
+    st.subheader("Prediction Details")
     
-    col1, col2 = st.columns(2)
+    col1, col2, col3 = st.columns(3)
     with col1:
         st.metric(
             "At-Risk Probability",
-            f"{prob_at_risk:.1%}",
-            delta=None
+            f"{prob_at_risk:.1%}"
         )
     with col2:
         st.metric(
             "Not At-Risk Probability",
-            f"{prob_not_risk:.1%}",
-            delta=None
+            f"{prob_not_risk:.1%}"
+        )
+    with col3:
+        st.metric(
+            "Prediction",
+            "🚨 AT-RISK" if pred == 1 else "✅ SAFE"
         )
     
     # Probability bar chart
@@ -359,11 +389,11 @@ if predict_button:
         "Probability": [prob_at_risk, prob_not_risk]
     })
     
-    st.bar_chart(prob_data.set_index("Status"))
+    st.bar_chart(prob_data.set_index("Status"), height=300)
     
     # Engineered Features Display
     st.markdown("---")
-    st.subheader("Engineered Features Used for Prediction")
+    st.subheader("Engineered Features Analysis")
     
     features_df = pd.DataFrame(
         list(user_data.items()),
@@ -371,20 +401,20 @@ if predict_button:
     )
     features_df["Value"] = features_df["Value"].round(3)
     
-    st.dataframe(features_df, use_container_width=True)
+    st.dataframe(features_df, use_container_width=True, hide_index=True)
     
     # Feature Explanation
-    with st.expander("📖 Understanding the Engineered Features"):
+    with st.expander("📖 What do these features mean?"):
         st.markdown("""
-        - **Total Study Hours**: Sum of weekday and weekend study hours
-        - **StudyEfficiency**: Study hours relative to submission frequency (higher = more efficient)
-        - **AcademicEngagement**: Combination of extracurricular involvement and social support
-        - **StressBalance**: Difference between stress level and social support (lower = better balance)
-        - **TimeBurden**: Combined work and gaming hours (higher = more time commitments)
-        - **StudyGamingRatio**: Study hours compared to gaming (higher = more balanced)
-        - **SleepStudyRatio**: Sleep hours relative to study hours (indicates rest quality)
-        - **StudyPerUnit**: Study efficiency per academic unit enrolled
+        - **Total Study Hours**: Weekday + weekend study combined
+        - **StudyEfficiency**: Study relative to late submission rate
+        - **AcademicEngagement**: Extracurricular involvement + social support
+        - **StressBalance**: Stress vs. emotional support difference
+        - **TimeBurden**: Work + gaming hours combined
+        - **StudyGamingRatio**: Balance between study and leisure
+        - **SleepStudyRatio**: Rest quality relative to study intensity
+        - **StudyPerUnit**: Study effort per course enrolled
         """)
 
 st.markdown("---")
-st.caption("🤖 Model: Support Vector Machine (SVM) | Last Updated: 2025")
+st.caption("🤖 Powered by SVM Model | 98% Test Accuracy")
